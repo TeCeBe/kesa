@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.KESA.Form1
+            Me.MainForm = Global.KESA.bootstrap
         End Sub
     End Class
 End Namespace

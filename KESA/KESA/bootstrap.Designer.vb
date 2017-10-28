@@ -25,10 +25,12 @@ Partial Class bootstrap
         Me.components = New System.ComponentModel.Container()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Timer1
         '
+        Me.Timer1.Enabled = True
         Me.Timer1.Interval = 3000
         '
         'Label1
@@ -45,6 +47,10 @@ Partial Class bootstrap
         Me.Label1.Text = "Tryb odzyskiwania - R"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Label1.Visible = False
+        '
+        'Timer2
+        '
+        Me.Timer2.Interval = 10
         '
         'bootstrap
         '
@@ -64,4 +70,5 @@ Partial Class bootstrap
 
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label1 As Label
+    Friend WithEvents Timer2 As Timer
 End Class

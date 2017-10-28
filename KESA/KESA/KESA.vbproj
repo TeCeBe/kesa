@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\..\..\..\..\..\Kesa\system\Bunifu_UI_v1.52.dll</HintPath>
+      <HintPath>My Project\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -75,6 +75,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bg.Designer.vb">
+      <DependentUpon>bg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bg.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="bootstrap.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="bg.resx">
+      <DependentUpon>bg.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bootstrap.resx">
       <DependentUpon>bootstrap.vb</DependentUpon>
     </EmbeddedResource>

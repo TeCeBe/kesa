@@ -30,9 +30,7 @@ Partial Class loginscreen
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -40,6 +38,8 @@ Partial Class loginscreen
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.clocklabel = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -56,7 +56,7 @@ Partial Class loginscreen
         Me.lockbutton.color = System.Drawing.Color.Transparent
         Me.lockbutton.colorActive = System.Drawing.Color.Transparent
         Me.lockbutton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.lockbutton.Font = New System.Drawing.Font("SF UI Display", 10.0!)
+        Me.lockbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lockbutton.ForeColor = System.Drawing.Color.White
         Me.lockbutton.Image = CType(resources.GetObject("lockbutton.Image"), System.Drawing.Image)
         Me.lockbutton.ImagePosition = 13
@@ -76,7 +76,7 @@ Partial Class loginscreen
         Me.shutdownbutton.color = System.Drawing.Color.Transparent
         Me.shutdownbutton.colorActive = System.Drawing.Color.Transparent
         Me.shutdownbutton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.shutdownbutton.Font = New System.Drawing.Font("SF UI Display", 10.0!)
+        Me.shutdownbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.shutdownbutton.ForeColor = System.Drawing.Color.White
         Me.shutdownbutton.Image = CType(resources.GetObject("shutdownbutton.Image"), System.Drawing.Image)
         Me.shutdownbutton.ImagePosition = 13
@@ -96,7 +96,7 @@ Partial Class loginscreen
         Me.restartbutton.color = System.Drawing.Color.Transparent
         Me.restartbutton.colorActive = System.Drawing.Color.Transparent
         Me.restartbutton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.restartbutton.Font = New System.Drawing.Font("SF UI Display", 10.0!)
+        Me.restartbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.restartbutton.ForeColor = System.Drawing.Color.White
         Me.restartbutton.Image = CType(resources.GetObject("restartbutton.Image"), System.Drawing.Image)
         Me.restartbutton.ImagePosition = 13
@@ -122,15 +122,14 @@ Partial Class loginscreen
         'Label2
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("SF UI Display", 10.0!)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label2.ForeColor = System.Drawing.Color.Yellow
-        Me.Label2.Location = New System.Drawing.Point(378, 198)
+        Me.Label2.Location = New System.Drawing.Point(12, 198)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 16)
+        Me.Label2.Size = New System.Drawing.Size(844, 29)
         Me.Label2.TabIndex = 15
-        Me.Label2.Text = "Incorrect password."
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label2.Text = "Nieprawidłowe hasło."
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Label2.Visible = False
         '
         'PictureBox6
@@ -144,18 +143,6 @@ Partial Class loginscreen
         Me.PictureBox6.TabIndex = 14
         Me.PictureBox6.TabStop = False
         '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(363, 170)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
-        Me.TextBox1.Size = New System.Drawing.Size(147, 25)
-        Me.TextBox1.TabIndex = 13
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'BunifuThinButton21
         '
         Me.BunifuThinButton21.ActiveBorderThickness = 1
@@ -166,9 +153,9 @@ Partial Class loginscreen
         Me.BunifuThinButton21.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.BunifuThinButton21.BackColor = System.Drawing.Color.Silver
         Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton21.ButtonText = "Login"
+        Me.BunifuThinButton21.ButtonText = "Zaloguj"
         Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton21.Font = New System.Drawing.Font("SF UI Display", 12.0!)
+        Me.BunifuThinButton21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
         Me.BunifuThinButton21.IdleBorderThickness = 1
         Me.BunifuThinButton21.IdleCornerRadius = 26
@@ -181,18 +168,6 @@ Partial Class loginscreen
         Me.BunifuThinButton21.Size = New System.Drawing.Size(110, 37)
         Me.BunifuThinButton21.TabIndex = 12
         Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label1.Font = New System.Drawing.Font("SF UI Display", 12.0!)
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(-90, 132)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1049, 23)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "admin"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
         '
@@ -208,15 +183,15 @@ Partial Class loginscreen
         'Panel1
         '
         Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.Controls.Add(Me.ComboBox1)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PictureBox6)
         Me.Panel1.Controls.Add(Me.BunifuThinButton21)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Location = New System.Drawing.Point(0, 162)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(868, 227)
+        Me.Panel1.Size = New System.Drawing.Size(868, 231)
         Me.Panel1.TabIndex = 16
         '
         'PictureBox4
@@ -256,17 +231,39 @@ Partial Class loginscreen
         '
         Me.clocklabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.clocklabel.AutoSize = True
-        Me.clocklabel.Font = New System.Drawing.Font("SF UI Display", 12.0!)
+        Me.clocklabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.clocklabel.ForeColor = System.Drawing.Color.White
         Me.clocklabel.Location = New System.Drawing.Point(813, 6)
         Me.clocklabel.Name = "clocklabel"
-        Me.clocklabel.Size = New System.Drawing.Size(47, 19)
+        Me.clocklabel.Size = New System.Drawing.Size(49, 20)
         Me.clocklabel.TabIndex = 17
         Me.clocklabel.Text = "21:37"
         '
         'Timer1
         '
         Me.Timer1.Enabled = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.TextBox1.Location = New System.Drawing.Point(363, 170)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
+        Me.TextBox1.Size = New System.Drawing.Size(147, 25)
+        Me.TextBox1.TabIndex = 13
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(363, 136)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(146, 21)
+        Me.ComboBox1.TabIndex = 16
+        Me.ComboBox1.Text = "admin"
         '
         'loginscreen
         '
@@ -286,6 +283,7 @@ Partial Class loginscreen
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "loginscreen"
         Me.Text = "loginscreen"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -305,9 +303,7 @@ Partial Class loginscreen
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents BunifuThinButton21 As ns1.BunifuThinButton2
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox4 As PictureBox
@@ -315,4 +311,6 @@ Partial Class loginscreen
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents clocklabel As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
