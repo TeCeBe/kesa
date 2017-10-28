@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Sprawdź wartości atrybutów zestawu
 
-<Assembly: AssemblyTitle("KESA")>
+<Assembly: AssemblyTitle("Kesa")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("KESA")>
-<Assembly: AssemblyCopyright("Copyright ©  2017")>
+<Assembly: AssemblyCompany("Simplicity Software")>
+<Assembly: AssemblyProduct("Kesa® Operating System")>
+<Assembly: AssemblyCopyright("© Simplicity Software, 2017")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' przy użyciu symbolu „*”, tak jak pokazano poniżej:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.0")>
+<Assembly: AssemblyFileVersion("1.0")>
