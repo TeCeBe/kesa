@@ -33,13 +33,13 @@ Partial Class loginscreen
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.clocklabel = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -194,6 +194,28 @@ Partial Class loginscreen
         Me.Panel1.Size = New System.Drawing.Size(868, 231)
         Me.Panel1.TabIndex = 16
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(363, 129)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(146, 33)
+        Me.ComboBox1.TabIndex = 16
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.TextBox1.Location = New System.Drawing.Point(363, 170)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
+        Me.TextBox1.Size = New System.Drawing.Size(147, 25)
+        Me.TextBox1.TabIndex = 13
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'PictureBox4
         '
         Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -242,28 +264,6 @@ Partial Class loginscreen
         'Timer1
         '
         Me.Timer1.Enabled = True
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(363, 170)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
-        Me.TextBox1.Size = New System.Drawing.Size(147, 25)
-        Me.TextBox1.TabIndex = 13
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(363, 136)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(146, 21)
-        Me.ComboBox1.TabIndex = 16
-        Me.ComboBox1.Text = "admin"
         '
         'loginscreen
         '
