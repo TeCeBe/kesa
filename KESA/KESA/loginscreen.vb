@@ -14,16 +14,21 @@ Public Class loginscreen
         Try
             For Each Dir As String In Directory.GetDirectories("C:\KESA\users")
                 Dim dirInfo As New System.IO.DirectoryInfo(Dir)
-                ComboBox1.Items.Add(dirInfo.Name)
+                'ComboBox1.Items.Add(dirInfo.Name)
+                BunifuDropdown1.AddItem(dirInfo.Name)
             Next
             Dim dir_count As Integer = System.IO.Directory.GetDirectories("C:\KESA\users").Length
             If dir_count < 2 Then
-                ComboBox1.SelectedIndex = 0
-                ComboBox1.Enabled = False
-                Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + ComboBox1.SelectedItem + "\password.conf")
+                BunifuDropdown1.selectedIndex = 0
+                BunifuDropdown1.Hide()
+                Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
                 If psw = "" Then
                     TextBox1.Hide()
+                    PictureBox6.Hide()
+                    BunifuThinButton21.Show()
                 Else
+                    TextBox1.Show()
+                    PictureBox6.Show()
                     BunifuThinButton21.Hide()
                 End If
             Else
@@ -32,13 +37,20 @@ Public Class loginscreen
                 PictureBox6.Hide()
             End If
         Catch ex As Exception
-            Label2.Text = "Aplikacja Usługa logowania przestała działać. Jeżeli problem będzie się powtarzał, napraw system za pomocą narzędzia Recovery."
-            Label2.Show()
+            'Label2.Text = "Aplikacja Usługa logowania przestała działać. Jeżeli problem będzie się powtarzał, napraw system za pomocą narzędzia Recovery."
+            'Label2.Show()
+            With New msgbox_error
+                .Show()
+                .title.Text = "Aplikacja Usługa Logowania przestała działać."
+                .Label1.Text = "Aplikacja została zatrzymana w wyniku błędu." _
+                    & vbNewLine & "Jeżeli problem będzie sie powtarzał, napraw" _
+                    & vbNewLine & "system za pomocą narzędzia Recovery."
+            End With
         End Try
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + ComboBox1.SelectedItem + "\password.conf")
+        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
         If psw = "" Then
             TextBox1.Hide()
             PictureBox6.Hide()
@@ -53,7 +65,7 @@ Public Class loginscreen
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
-        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + ComboBox1.SelectedItem + "\password.conf")
+        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
         If psw = TextBox1.Text Then
             login_in()
             TextBox1.Hide()
@@ -67,6 +79,9 @@ Public Class loginscreen
 
     Private Sub login_in()
         Label2.Hide()
-        MsgBox("ok")
+        With New msgbox_ok
+            .Show()
+            .title.Text = "ok"
+        End With
     End Sub
 End Class

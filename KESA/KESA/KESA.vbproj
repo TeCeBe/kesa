@@ -75,6 +75,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="apps\about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\about.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="bg.Designer.vb">
       <DependentUpon>bg.vb</DependentUpon>
     </Compile>
@@ -88,10 +94,40 @@
       <DependentUpon>bootstrap.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="desktop.Designer.vb">
+      <DependentUpon>desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="loginscreen.Designer.vb">
       <DependentUpon>loginscreen.vb</DependentUpon>
     </Compile>
     <Compile Include="loginscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_info.Designer.vb">
+      <DependentUpon>msgbox_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_ok.Designer.vb">
+      <DependentUpon>msgbox_ok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_ok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_warning.Designer.vb">
+      <DependentUpon>msgbox_warning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_warning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_error.Designer.vb">
+      <DependentUpon>msgbox_error.vb</DependentUpon>
+    </Compile>
+    <Compile Include="messageboxes\msgbox_error.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -111,14 +147,32 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="apps\about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bg.resx">
       <DependentUpon>bg.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bootstrap.resx">
       <DependentUpon>bootstrap.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="desktop.resx">
+      <DependentUpon>desktop.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginscreen.resx">
       <DependentUpon>loginscreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messageboxes\msgbox_info.resx">
+      <DependentUpon>msgbox_info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messageboxes\msgbox_ok.resx">
+      <DependentUpon>msgbox_ok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messageboxes\msgbox_warning.resx">
+      <DependentUpon>msgbox_warning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messageboxes\msgbox_error.resx">
+      <DependentUpon>msgbox_error.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -138,6 +192,15 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modules\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

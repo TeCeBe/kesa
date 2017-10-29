@@ -117,11 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAAAlCAYAAAAQjPROAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHsSURBVGhD7ZkrTMRAEECRSCQSiUQikUgkEolE4pBIJBKJ
+        RCKRSCSETw7C//8LXPiEYd5NS693t0ttu/OSzTW9vUv3ZWb20yFxgricCC4ngsuJ4HIiuJwI1eW0d0Ru
+        l0ROpqwdjons6s/r0HjW/LlvFm0sFdBf/sPLhv15a8LkvG1Z+2xlHWoAz5o/992yjeVgVOR5PeswmLCc
+        70czfTZTLxFV+boUOZ8VOZ4Mjm+wHMIOu5huOu/bwbH2y6FzxGYjIUtOp0VeN7MbRlkOoZaamJyfto29
+        q1iX5fAlkZMqBMXRuIlSCjnMShTf1GGqZ0ZTCjlMbaRV6hA1uNA6ZHKo1EzbjsEUr2sgk9MVSo7C4lAF
+        mRyiJoU1TVUozLorMDnk2Mdu59JRqDt7w5kcvUhybRNDN6yeVoMopdXFnMjTWufSUbLZ2+T4ArDM1bzI
+        w2omhwK0P/K3bE4ezq80tUwOsM5hvZM6lBfKjFLIIWowlvIWosdBIQfYkTNzpZpe2bYhpywHCCs6pQbn
+        47Qu+uWAVupOBHFC1nTIEoKhRwwMlgPM9Rz83K9kNxoIKcQYA28hwnKAwnS9YEWKzyasoqmrjAUpRExk
+        2xSXk8MfEEGkWu8Ls7o1joIZS4WNtvZ2QricCC4ngsuJ4HKCiPwCfMovwT/7540AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
