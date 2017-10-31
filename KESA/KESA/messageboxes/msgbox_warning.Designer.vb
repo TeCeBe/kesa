@@ -56,7 +56,7 @@ Partial Class msgbox_warning
         'title
         '
         Me.title.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.title.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.title.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
         Me.title.ForeColor = System.Drawing.Color.Gold
         Me.title.Location = New System.Drawing.Point(0, 121)
         Me.title.Name = "title"
@@ -106,7 +106,7 @@ Partial Class msgbox_warning
         Me.BunifuElipse1.ElipseRadius = 7
         Me.BunifuElipse1.TargetControl = Me
         '
-        'mesageboxes_warning
+        'msgbox_warning
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -118,9 +118,10 @@ Partial Class msgbox_warning
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.BunifuThinButton21)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "mesageboxes_warning"
+        Me.Name = "msgbox_warning"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "mesageboxes_warning"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

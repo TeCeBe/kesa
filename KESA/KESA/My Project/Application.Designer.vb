@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.KESA.loginscreen
+            Me.MainForm = Global.KESA.desktop
         End Sub
     End Class
 End Namespace

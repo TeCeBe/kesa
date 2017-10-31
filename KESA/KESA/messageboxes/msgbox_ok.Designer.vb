@@ -61,7 +61,7 @@ Partial Class msgbox_ok
         'title
         '
         Me.title.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.title.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.title.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
         Me.title.ForeColor = System.Drawing.Color.LimeGreen
         Me.title.Location = New System.Drawing.Point(0, 121)
         Me.title.Name = "title"
@@ -121,6 +121,7 @@ Partial Class msgbox_ok
         Me.Name = "msgbox_ok"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "msgbox_ok"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

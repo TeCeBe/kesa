@@ -577,7 +577,7 @@
   <data name="Panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQYAAAA5CAYAAADUboXwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTCtCgrA
+        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTCtCgrA
         AAAikUlEQVR4XoXThZJtbY6j4ezuYWZmZmZmZmZmZuyBO6/Zb8Z+MlSOdXoqQmVbluRv7Tz/x+t/3/fC
         D3rX76n/zne+8yof36cO97l/V2j/vS98Zhwvzfc2v7m0edbX/zZPb+5/d3/50P/wZdPp3Vrue863xQP/
         1cXRNn9+3+t/8fCVP1z41D9w8mXx7Tv4PuvRyV3Nd+nf9es7vNndN750735vP2k+IesF/1Z2/6nHv+v+
@@ -728,6 +728,12 @@
         x9tu52p36P0mzfGy6AP/3ofN3jx8lef25ur7PR/f//8A1X30PMBMvdsAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
+  <metadata name="BunifuElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>230, 17</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/4QCuRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAZKG

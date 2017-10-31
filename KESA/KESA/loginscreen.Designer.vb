@@ -26,7 +26,7 @@ Partial Class loginscreen
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(loginscreen))
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.BunifuDropdown1 = New ns1.BunifuDropdown()
+        Me.BunifuDropdown2 = New ns1.BunifuDropdown()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
@@ -42,7 +42,8 @@ Partial Class loginscreen
         Me.shutdownbutton = New ns1.BunifuTileButton()
         Me.restartbutton = New ns1.BunifuTileButton()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.BunifuDropdown2 = New ns1.BunifuDropdown()
+        Me.BunifuElipse1 = New ns1.BunifuElipse(Me.components)
+        Me.BunifuElipse2 = New ns1.BunifuElipse(Me.components)
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +72,6 @@ Partial Class loginscreen
         Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.Controls.Add(Me.BunifuDropdown2)
-        Me.Panel1.Controls.Add(Me.BunifuDropdown1)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.ComboBox1)
         Me.Panel1.Controls.Add(Me.Label2)
@@ -83,19 +83,19 @@ Partial Class loginscreen
         Me.Panel1.Size = New System.Drawing.Size(868, 231)
         Me.Panel1.TabIndex = 16
         '
-        'BunifuDropdown1
+        'BunifuDropdown2
         '
-        Me.BunifuDropdown1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuDropdown1.BorderRadius = 0
-        Me.BunifuDropdown1.ForeColor = System.Drawing.Color.White
-        Me.BunifuDropdown1.Items = New String(-1) {}
-        Me.BunifuDropdown1.Location = New System.Drawing.Point(364, 134)
-        Me.BunifuDropdown1.Name = "BunifuDropdown1"
-        Me.BunifuDropdown1.NomalColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
-        Me.BunifuDropdown1.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
-        Me.BunifuDropdown1.selectedIndex = -1
-        Me.BunifuDropdown1.Size = New System.Drawing.Size(146, 30)
-        Me.BunifuDropdown1.TabIndex = 17
+        Me.BunifuDropdown2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuDropdown2.BorderRadius = 3
+        Me.BunifuDropdown2.ForeColor = System.Drawing.Color.White
+        Me.BunifuDropdown2.Items = New String(-1) {}
+        Me.BunifuDropdown2.Location = New System.Drawing.Point(363, 132)
+        Me.BunifuDropdown2.Name = "BunifuDropdown2"
+        Me.BunifuDropdown2.NomalColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuDropdown2.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuDropdown2.selectedIndex = -1
+        Me.BunifuDropdown2.Size = New System.Drawing.Size(147, 28)
+        Me.BunifuDropdown2.TabIndex = 18
         '
         'PictureBox1
         '
@@ -306,19 +306,15 @@ Partial Class loginscreen
         Me.Panel2.Size = New System.Drawing.Size(868, 80)
         Me.Panel2.TabIndex = 21
         '
-        'BunifuDropdown2
+        'BunifuElipse1
         '
-        Me.BunifuDropdown2.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuDropdown2.BorderRadius = 3
-        Me.BunifuDropdown2.ForeColor = System.Drawing.Color.White
-        Me.BunifuDropdown2.Items = New String(-1) {}
-        Me.BunifuDropdown2.Location = New System.Drawing.Point(550, 108)
-        Me.BunifuDropdown2.Name = "BunifuDropdown2"
-        Me.BunifuDropdown2.NomalColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
-        Me.BunifuDropdown2.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
-        Me.BunifuDropdown2.selectedIndex = -1
-        Me.BunifuDropdown2.Size = New System.Drawing.Size(217, 35)
-        Me.BunifuDropdown2.TabIndex = 18
+        Me.BunifuElipse1.ElipseRadius = 200
+        Me.BunifuElipse1.TargetControl = Me.PictureBox1
+        '
+        'BunifuElipse2
+        '
+        Me.BunifuElipse2.ElipseRadius = 7
+        Me.BunifuElipse2.TargetControl = Me.TextBox1
         '
         'loginscreen
         '
@@ -332,8 +328,8 @@ Partial Class loginscreen
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.clocklabel)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox5)
+        Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "loginscreen"
         Me.Text = "loginscreen"
@@ -368,7 +364,8 @@ Partial Class loginscreen
     Friend WithEvents Timer1 As Timer
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents BunifuDropdown1 As ns1.BunifuDropdown
     Friend WithEvents Panel2 As Panel
     Friend WithEvents BunifuDropdown2 As ns1.BunifuDropdown
+    Friend WithEvents BunifuElipse1 As ns1.BunifuElipse
+    Friend WithEvents BunifuElipse2 As ns1.BunifuElipse
 End Class

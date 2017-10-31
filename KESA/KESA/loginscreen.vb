@@ -15,13 +15,13 @@ Public Class loginscreen
             For Each Dir As String In Directory.GetDirectories("C:\KESA\users")
                 Dim dirInfo As New System.IO.DirectoryInfo(Dir)
                 'ComboBox1.Items.Add(dirInfo.Name)
-                BunifuDropdown1.AddItem(dirInfo.Name)
+                BunifuDropdown2.AddItem(dirInfo.Name)
             Next
             Dim dir_count As Integer = System.IO.Directory.GetDirectories("C:\KESA\users").Length
             If dir_count < 2 Then
-                BunifuDropdown1.selectedIndex = 0
-                BunifuDropdown1.Hide()
-                Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
+                BunifuDropdown2.selectedIndex = 0
+                BunifuDropdown2.Hide()
+                Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown2.selectedIndex + "\password.conf")
                 If psw = "" Then
                     TextBox1.Hide()
                     PictureBox6.Hide()
@@ -50,7 +50,7 @@ Public Class loginscreen
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
+        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown2.selectedIndex + "\password.conf")
         If psw = "" Then
             TextBox1.Hide()
             PictureBox6.Hide()
@@ -65,7 +65,7 @@ Public Class loginscreen
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
-        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown1.selectedIndex + "\password.conf")
+        Dim psw As String = My.Computer.FileSystem.ReadAllText("C:\KESA\users\" + BunifuDropdown2.selectedIndex + "\password.conf")
         If psw = TextBox1.Text Then
             login_in()
             TextBox1.Hide()
