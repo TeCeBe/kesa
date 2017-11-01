@@ -81,6 +81,12 @@
     <Compile Include="apps\about.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="apps\file_explorer.Designer.vb">
+      <DependentUpon>file_explorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\file_explorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="apps\settings.Designer.vb">
       <DependentUpon>settings.vb</DependentUpon>
     </Compile>
@@ -161,6 +167,9 @@
   <ItemGroup>
     <EmbeddedResource Include="apps\about.resx">
       <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\file_explorer.resx">
+      <DependentUpon>file_explorer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="apps\settings.resx">
       <DependentUpon>settings.vb</DependentUpon>
