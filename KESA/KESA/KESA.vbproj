@@ -81,12 +81,6 @@
     <Compile Include="apps\about.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="apps\file_explorer.Designer.vb">
-      <DependentUpon>file_explorer.vb</DependentUpon>
-    </Compile>
-    <Compile Include="apps\file_explorer.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="apps\settings.Designer.vb">
       <DependentUpon>settings.vb</DependentUpon>
     </Compile>
@@ -142,6 +136,12 @@
     <Compile Include="messageboxes\msgbox_error.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\explorer.Designer.vb">
+      <DependentUpon>explorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\explorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modules\theme_preview_window.Designer.vb">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
     </Compile>
@@ -167,9 +167,6 @@
   <ItemGroup>
     <EmbeddedResource Include="apps\about.resx">
       <DependentUpon>about.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="apps\file_explorer.resx">
-      <DependentUpon>file_explorer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="apps\settings.resx">
       <DependentUpon>settings.vb</DependentUpon>
@@ -197,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="messageboxes\msgbox_error.resx">
       <DependentUpon>msgbox_error.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modules\explorer.resx">
+      <DependentUpon>explorer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modules\theme_preview_window.resx">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
