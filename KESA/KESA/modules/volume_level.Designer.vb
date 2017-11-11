@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class explorer
+Partial Class volume_level
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,10 +24,10 @@ Partial Class explorer
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.BunifuElipse1 = New ns1.BunifuElipse(Me.components)
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BunifuElipse2 = New ns1.BunifuElipse(Me.components)
-        Me.BunifuElipse3 = New ns1.BunifuElipse(Me.components)
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.BunifuVTrackbar1 = New ns1.BunifuVTrackbar()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -35,51 +35,52 @@ Partial Class explorer
         Me.BunifuElipse1.ElipseRadius = 7
         Me.BunifuElipse1.TargetControl = Me
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel2.Location = New System.Drawing.Point(0, 60)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(217, 409)
-        Me.Panel2.TabIndex = 3
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(679, 60)
-        Me.Panel1.TabIndex = 2
-        '
         'BunifuElipse2
         '
         Me.BunifuElipse2.ElipseRadius = 7
-        Me.BunifuElipse2.TargetControl = Me.Panel2
+        Me.BunifuElipse2.TargetControl = Me.Panel1
         '
-        'BunifuElipse3
+        'Panel1
         '
-        Me.BunifuElipse3.ElipseRadius = 7
-        Me.BunifuElipse3.TargetControl = Me.Panel1
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.BunifuVTrackbar1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(61, 132)
+        Me.Panel1.TabIndex = 0
         '
-        'explorer
+        'BunifuVTrackbar1
+        '
+        Me.BunifuVTrackbar1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuVTrackbar1.BackgroudColor = System.Drawing.Color.DimGray
+        Me.BunifuVTrackbar1.BorderRadius = 0
+        Me.BunifuVTrackbar1.IndicatorColor = System.Drawing.Color.LimeGreen
+        Me.BunifuVTrackbar1.Location = New System.Drawing.Point(15, 12)
+        Me.BunifuVTrackbar1.MaximumValue = 100
+        Me.BunifuVTrackbar1.Name = "BunifuVTrackbar1"
+        Me.BunifuVTrackbar1.Size = New System.Drawing.Size(30, 108)
+        Me.BunifuVTrackbar1.SliderRadius = 0
+        Me.BunifuVTrackbar1.TabIndex = 0
+        Me.BunifuVTrackbar1.Value = 0
+        '
+        'volume_level
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(679, 469)
-        Me.Controls.Add(Me.Panel2)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(61, 160)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "explorer"
-        Me.Text = "explorer"
+        Me.Name = "volume_level"
+        Me.Text = "volume_level"
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
+
     Friend WithEvents BunifuElipse1 As ns1.BunifuElipse
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents BunifuElipse2 As ns1.BunifuElipse
-    Friend WithEvents BunifuElipse3 As ns1.BunifuElipse
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents BunifuVTrackbar1 As ns1.BunifuVTrackbar
 End Class

@@ -148,6 +148,12 @@
     <Compile Include="modules\theme_preview_window.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\volume_level.Designer.vb">
+      <DependentUpon>volume_level.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\volume_level.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modules\theme_preview_window.resx">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modules\volume_level.resx">
+      <DependentUpon>volume_level.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
