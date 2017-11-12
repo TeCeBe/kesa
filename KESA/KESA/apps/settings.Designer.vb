@@ -24,6 +24,7 @@ Partial Class settings
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(settings))
+        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Me.BunifuElipse1 = New ns1.BunifuElipse(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
@@ -41,6 +42,7 @@ Partial Class settings
         Me.BunifuDragControl1 = New ns1.BunifuDragControl(Me.components)
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -59,6 +61,7 @@ Partial Class settings
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
         Me.Panel1.Controls.Add(Me.TabControl1)
+        Me.BunifuTransition1.SetDecoration(Me.Panel1, BunifuAnimatorNS.DecorationType.None)
         Me.Panel1.Location = New System.Drawing.Point(1, 41)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(639, 425)
@@ -68,6 +71,7 @@ Partial Class settings
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl1, BunifuAnimatorNS.DecorationType.None)
         Me.TabControl1.Location = New System.Drawing.Point(-4, -11)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -85,12 +89,13 @@ Partial Class settings
         Me.TabPage1.Controls.Add(Me.BunifuTileButton3)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton2)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton1)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage1, BunifuAnimatorNS.DecorationType.None)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(639, 414)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.Text = "Główne"
         '
         'BunifuTileButton8
         '
@@ -247,12 +252,13 @@ Partial Class settings
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.BunifuTransition1.SetDecoration(Me.TabPage2, BunifuAnimatorNS.DecorationType.None)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(639, 414)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TabPage2"
+        Me.TabPage2.Text = "System"
         '
         'Label1
         '
@@ -284,6 +290,7 @@ Partial Class settings
         Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
         Me.BunifuThinButton21.ButtonText = "Powrót"
         Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuThinButton21, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuThinButton21.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
         Me.BunifuThinButton21.IdleBorderThickness = 1
@@ -307,6 +314,27 @@ Partial Class settings
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
+        'BunifuTransition1
+        '
+        Me.BunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide
+        Me.BunifuTransition1.Cursor = Nothing
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 0!
+        Me.BunifuTransition1.DefaultAnimation = Animation1
+        '
         'settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -317,6 +345,7 @@ Partial Class settings
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
+        Me.BunifuTransition1.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "settings"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -346,4 +375,5 @@ Partial Class settings
     Friend WithEvents BunifuTileButton2 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton1 As ns1.BunifuTileButton
     Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents BunifuTransition1 As BunifuAnimatorNS.BunifuTransition
 End Class

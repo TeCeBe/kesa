@@ -51,6 +51,10 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>My Project\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
+    <Reference Include="CoreAudio, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CoreAudio.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -143,6 +147,12 @@
     <Compile Include="modules\explorer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\loadingform.Designer.vb">
+      <DependentUpon>loadingform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\loadingform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modules\theme_preview_window.Designer.vb">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
     </Compile>
@@ -204,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modules\explorer.resx">
       <DependentUpon>explorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modules\loadingform.resx">
+      <DependentUpon>loadingform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modules\theme_preview_window.resx">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
