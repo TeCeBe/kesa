@@ -43,10 +43,16 @@ Partial Class settings
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
+        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControl2.SuspendLayout()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -103,6 +109,7 @@ Partial Class settings
         Me.BunifuTileButton8.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton8.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton8, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton8.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton8.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton8.Image = CType(resources.GetObject("BunifuTileButton8.Image"), System.Drawing.Image)
@@ -122,6 +129,7 @@ Partial Class settings
         Me.BunifuTileButton7.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton7.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton7.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton7.Image = CType(resources.GetObject("BunifuTileButton7.Image"), System.Drawing.Image)
@@ -141,6 +149,7 @@ Partial Class settings
         Me.BunifuTileButton6.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton6.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton6, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton6.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton6.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton6.Image = CType(resources.GetObject("BunifuTileButton6.Image"), System.Drawing.Image)
@@ -160,6 +169,7 @@ Partial Class settings
         Me.BunifuTileButton5.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton5.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton5, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton5.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton5.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton5.Image = CType(resources.GetObject("BunifuTileButton5.Image"), System.Drawing.Image)
@@ -179,6 +189,7 @@ Partial Class settings
         Me.BunifuTileButton4.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton4.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton4, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton4.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton4.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton4.Image = CType(resources.GetObject("BunifuTileButton4.Image"), System.Drawing.Image)
@@ -198,6 +209,7 @@ Partial Class settings
         Me.BunifuTileButton3.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton3.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton3, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton3.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton3.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton3.Image = CType(resources.GetObject("BunifuTileButton3.Image"), System.Drawing.Image)
@@ -217,6 +229,7 @@ Partial Class settings
         Me.BunifuTileButton2.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton2.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton2, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton2.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton2.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton2.Image = CType(resources.GetObject("BunifuTileButton2.Image"), System.Drawing.Image)
@@ -236,6 +249,7 @@ Partial Class settings
         Me.BunifuTileButton1.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton1, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton1.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton1.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton1.Image = CType(resources.GetObject("BunifuTileButton1.Image"), System.Drawing.Image)
@@ -252,6 +266,8 @@ Partial Class settings
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.TabPage2.Controls.Add(Me.Panel2)
+        Me.TabPage2.Controls.Add(Me.TabControl2)
         Me.BunifuTransition1.SetDecoration(Me.TabPage2, BunifuAnimatorNS.DecorationType.None)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
@@ -262,6 +278,7 @@ Partial Class settings
         '
         'Label1
         '
+        Me.BunifuTransition1.SetDecoration(Me.Label1, BunifuAnimatorNS.DecorationType.None)
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
@@ -308,6 +325,7 @@ Partial Class settings
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox1, BunifuAnimatorNS.DecorationType.None)
         Me.PictureBox1.Location = New System.Drawing.Point(616, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(21, 21)
@@ -326,7 +344,7 @@ Partial Class settings
         Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
         Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
         Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
         Animation1.RotateCoeff = 0!
         Animation1.RotateLimit = 0!
         Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
@@ -334,6 +352,47 @@ Partial Class settings
         Animation1.TimeCoeff = 0!
         Animation1.TransparencyCoeff = 0!
         Me.BunifuTransition1.DefaultAnimation = Animation1
+        '
+        'TabControl2
+        '
+        Me.TabControl2.Controls.Add(Me.TabPage3)
+        Me.TabControl2.Controls.Add(Me.TabPage4)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl2, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl2.Location = New System.Drawing.Point(159, -11)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(484, 429)
+        Me.TabControl2.TabIndex = 0
+        '
+        'TabPage3
+        '
+        Me.BunifuTransition1.SetDecoration(Me.TabPage3, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "TabPage3"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TabPage4
+        '
+        Me.BunifuTransition1.SetDecoration(Me.TabPage4, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(192, 74)
+        Me.TabPage4.TabIndex = 1
+        Me.TabPage4.Text = "TabPage4"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Panel2
+        '
+        Me.BunifuTransition1.SetDecoration(Me.Panel2, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(167, 414)
+        Me.Panel2.TabIndex = 1
         '
         'settings
         '
@@ -353,7 +412,9 @@ Partial Class settings
         Me.Panel1.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -376,4 +437,8 @@ Partial Class settings
     Friend WithEvents BunifuTileButton1 As ns1.BunifuTileButton
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents BunifuTransition1 As BunifuAnimatorNS.BunifuTransition
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents TabControl2 As TabControl
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabPage4 As TabPage
 End Class
