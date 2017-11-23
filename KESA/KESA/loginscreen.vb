@@ -42,7 +42,7 @@ Public Class loginscreen
             With New msgbox_error
                 .Show()
                 .title.Text = "Aplikacja Usługa Logowania przestała działać."
-                .Label1.Text = "Aplikacja została zatrzymana w wyniku błędu." _
+                .info.Text = "Aplikacja została zatrzymana w wyniku błędu." _
                     & vbNewLine & "Jeżeli problem będzie sie powtarzał, napraw" _
                     & vbNewLine & "system za pomocą narzędzia Recovery."
             End With
