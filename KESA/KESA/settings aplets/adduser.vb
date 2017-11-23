@@ -61,10 +61,17 @@
             Label6.ForeColor = Color.White
             tab = 3
         Catch ex As Exception
-            msgbox_error.title.Text = "Wystąpił błąd krytyczny"
-            msgbox_error.info.Text = "Nie można utworzyć nowego konta: " + vbNewLine + ex.Message
-            msgbox_error.Show()
+            Dim nameerror As New msgbox_error
+            With nameerror
+                .title.Text = "Wystąpił błąd krytyczny"
+                .info.Text = "Nie można utworzyć nowego konta: " + vbNewLine + ex.Message
+                Show()
+            End With
             Me.Close()
         End Try
+    End Sub
+
+    Private Sub adduser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

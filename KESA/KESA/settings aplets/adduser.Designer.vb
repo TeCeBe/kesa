@@ -23,7 +23,7 @@ Partial Class adduser
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(adduser))
         Me.BunifuDragControl1 = New ns1.BunifuDragControl(Me.components)
         Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
@@ -40,6 +40,7 @@ Partial Class adduser
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.BunifuMetroTextbox3 = New ns1.BunifuMetroTextbox()
         Me.BunifuMetroTextbox2 = New ns1.BunifuMetroTextbox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -49,7 +50,6 @@ Partial Class adduser
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuElipse1 = New ns1.BunifuElipse(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -61,29 +61,29 @@ Partial Class adduser
         '
         Me.BunifuDragControl1.Fixed = True
         Me.BunifuDragControl1.Horizontal = True
-        Me.BunifuDragControl1.TargetControl = Nothing
+        Me.BunifuDragControl1.TargetControl = Me.Label1
         Me.BunifuDragControl1.Vertical = True
         '
         'BunifuTransition1
         '
         Me.BunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide
         Me.BunifuTransition1.Cursor = Nothing
-        Animation1.AnimateOnlyDifferences = True
-        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
-        Animation1.LeafCoeff = 0!
-        Animation1.MaxTime = 1.0!
-        Animation1.MinTime = 0!
-        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
-        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
-        Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
-        Animation1.RotateCoeff = 0!
-        Animation1.RotateLimit = 0!
-        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
-        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
-        Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 0!
-        Me.BunifuTransition1.DefaultAnimation = Animation1
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
+        Animation2.LeafCoeff = 0!
+        Animation2.MaxTime = 1.0!
+        Animation2.MinTime = 0!
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
+        Animation2.MosaicSize = 0
+        Animation2.Padding = New System.Windows.Forms.Padding(0)
+        Animation2.RotateCoeff = 0!
+        Animation2.RotateLimit = 0!
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
+        Animation2.TimeCoeff = 0!
+        Animation2.TransparencyCoeff = 0!
+        Me.BunifuTransition1.DefaultAnimation = Animation2
         '
         'Label1
         '
@@ -95,14 +95,14 @@ Partial Class adduser
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(496, 24)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Konta użytkoników"
+        Me.Label1.Text = "Konta użytkowników"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'BunifuMetroTextbox1
         '
-        Me.BunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.White
-        Me.BunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox1.BorderThickness = 3
         Me.BunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.BunifuTransition1.SetDecoration(Me.BunifuMetroTextbox1, BunifuAnimatorNS.DecorationType.None)
@@ -120,18 +120,18 @@ Partial Class adduser
         '
         Me.Label2.AutoSize = True
         Me.BunifuTransition1.SetDecoration(Me.Label2, BunifuAnimatorNS.DecorationType.None)
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(6, 3)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(261, 20)
+        Me.Label2.Size = New System.Drawing.Size(256, 21)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Kto będzie używał tego komputera?"
         '
         'Label3
         '
         Me.BunifuTransition1.SetDecoration(Me.Label3, BunifuAnimatorNS.DecorationType.None)
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 14.25!)
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(22, 36)
         Me.Label3.Name = "Label3"
@@ -143,11 +143,11 @@ Partial Class adduser
         '
         Me.Label4.AutoSize = True
         Me.BunifuTransition1.SetDecoration(Me.Label4, BunifuAnimatorNS.DecorationType.None)
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(22, 72)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(147, 20)
+        Me.Label4.Size = New System.Drawing.Size(148, 21)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "Nazwa użytkownika"
         '
@@ -155,11 +155,11 @@ Partial Class adduser
         '
         Me.Label5.AutoSize = True
         Me.BunifuTransition1.SetDecoration(Me.Label5, BunifuAnimatorNS.DecorationType.None)
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(175, 72)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 20)
+        Me.Label5.Size = New System.Drawing.Size(49, 21)
         Me.Label5.TabIndex = 20
         Me.Label5.Text = "Hasło"
         '
@@ -167,11 +167,11 @@ Partial Class adduser
         '
         Me.Label6.AutoSize = True
         Me.BunifuTransition1.SetDecoration(Me.Label6, BunifuAnimatorNS.DecorationType.None)
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(232, 72)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(65, 20)
+        Me.Label6.Size = New System.Drawing.Size(64, 21)
         Me.Label6.TabIndex = 21
         Me.Label6.Text = "Gotowe"
         '
@@ -256,17 +256,29 @@ Partial Class adduser
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Haslo"
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label9, BunifuAnimatorNS.DecorationType.None)
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(7, 75)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(109, 20)
+        Me.Label9.TabIndex = 21
+        Me.Label9.Text = "Powtórz hasło"
+        '
         'BunifuMetroTextbox3
         '
-        Me.BunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.White
-        Me.BunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox3.BorderThickness = 3
         Me.BunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.BunifuTransition1.SetDecoration(Me.BunifuMetroTextbox3, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuMetroTextbox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.BunifuMetroTextbox3.ForeColor = System.Drawing.Color.White
-        Me.BunifuMetroTextbox3.isPassword = False
+        Me.BunifuMetroTextbox3.isPassword = True
         Me.BunifuMetroTextbox3.Location = New System.Drawing.Point(6, 99)
         Me.BunifuMetroTextbox3.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuMetroTextbox3.Name = "BunifuMetroTextbox3"
@@ -276,15 +288,15 @@ Partial Class adduser
         '
         'BunifuMetroTextbox2
         '
-        Me.BunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.White
-        Me.BunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Gray
+        Me.BunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Gainsboro
         Me.BunifuMetroTextbox2.BorderThickness = 3
         Me.BunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.BunifuTransition1.SetDecoration(Me.BunifuMetroTextbox2, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuMetroTextbox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.BunifuMetroTextbox2.ForeColor = System.Drawing.Color.White
-        Me.BunifuMetroTextbox2.isPassword = False
+        Me.BunifuMetroTextbox2.isPassword = True
         Me.BunifuMetroTextbox2.Location = New System.Drawing.Point(6, 27)
         Me.BunifuMetroTextbox2.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuMetroTextbox2.Name = "BunifuMetroTextbox2"
@@ -323,6 +335,7 @@ Partial Class adduser
         Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton1, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.Iconimage = CType(resources.GetObject("BunifuFlatButton1.Iconimage"), System.Drawing.Image)
         Me.BunifuFlatButton1.Iconimage_right = Nothing
@@ -351,7 +364,7 @@ Partial Class adduser
         'Label8
         '
         Me.BunifuTransition1.SetDecoration(Me.Label8, BunifuAnimatorNS.DecorationType.None)
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 9.75!)
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(18, 315)
         Me.Label8.Name = "Label8"
@@ -379,18 +392,6 @@ Partial Class adduser
         'Timer1
         '
         Me.Timer1.Interval = 3000
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.BunifuTransition1.SetDecoration(Me.Label9, BunifuAnimatorNS.DecorationType.None)
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(7, 75)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(109, 20)
-        Me.Label9.TabIndex = 21
-        Me.Label9.Text = "Powtórz hasło"
         '
         'adduser
         '

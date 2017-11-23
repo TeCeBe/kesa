@@ -38,21 +38,49 @@ Partial Class settings
         Me.BunifuTileButton2 = New ns1.BunifuTileButton()
         Me.BunifuTileButton1 = New ns1.BunifuTileButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BunifuDragControl1 = New ns1.BunifuDragControl(Me.components)
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
-        Me.TabControl2 = New System.Windows.Forms.TabControl()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.TabPage10 = New System.Windows.Forms.TabPage()
+        Me.TabControl3 = New System.Windows.Forms.TabControl()
+        Me.TabPage11 = New System.Windows.Forms.TabPage()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.TabPage12 = New System.Windows.Forms.TabPage()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.TabControl4 = New System.Windows.Forms.TabControl()
+        Me.TabPage13 = New System.Windows.Forms.TabPage()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.TabPage14 = New System.Windows.Forms.TabPage()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage8.SuspendLayout()
+        Me.TabPage10.SuspendLayout()
+        Me.TabControl3.SuspendLayout()
+        Me.TabPage11.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControl4.SuspendLayout()
+        Me.TabPage13.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -77,6 +105,12 @@ Partial Class settings
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.Controls.Add(Me.TabPage6)
+        Me.TabControl1.Controls.Add(Me.TabPage7)
+        Me.TabControl1.Controls.Add(Me.TabPage8)
+        Me.TabControl1.Controls.Add(Me.TabPage9)
+        Me.TabControl1.Controls.Add(Me.TabPage10)
         Me.BunifuTransition1.SetDecoration(Me.TabControl1, BunifuAnimatorNS.DecorationType.None)
         Me.TabControl1.Location = New System.Drawing.Point(-4, -11)
         Me.TabControl1.Name = "TabControl1"
@@ -276,6 +310,48 @@ Partial Class settings
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "System"
         '
+        'Panel2
+        '
+        Me.BunifuTransition1.SetDecoration(Me.Panel2, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(167, 414)
+        Me.Panel2.TabIndex = 1
+        '
+        'TabControl2
+        '
+        Me.TabControl2.Controls.Add(Me.TabPage3)
+        Me.TabControl2.Controls.Add(Me.TabPage4)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl2, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl2.Location = New System.Drawing.Point(159, -11)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(484, 429)
+        Me.TabControl2.TabIndex = 0
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage3.Controls.Add(Me.PictureBox2)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage3, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "TabPage3"
+        '
+        'TabPage4
+        '
+        Me.BunifuTransition1.SetDecoration(Me.TabPage4, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage4.TabIndex = 1
+        Me.TabPage4.Text = "TabPage4"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
         'Label1
         '
         Me.BunifuTransition1.SetDecoration(Me.Label1, BunifuAnimatorNS.DecorationType.None)
@@ -315,7 +391,7 @@ Partial Class settings
         Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.Transparent
         Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
         Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
-        Me.BunifuThinButton21.Location = New System.Drawing.Point(12, 5)
+        Me.BunifuThinButton21.Location = New System.Drawing.Point(8, 3)
         Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BunifuThinButton21.Name = "BunifuThinButton21"
         Me.BunifuThinButton21.Size = New System.Drawing.Size(76, 33)
@@ -353,46 +429,203 @@ Partial Class settings
         Animation1.TransparencyCoeff = 0!
         Me.BunifuTransition1.DefaultAnimation = Animation1
         '
-        'TabControl2
+        'PictureBox2
         '
-        Me.TabControl2.Controls.Add(Me.TabPage3)
-        Me.TabControl2.Controls.Add(Me.TabPage4)
-        Me.BunifuTransition1.SetDecoration(Me.TabControl2, BunifuAnimatorNS.DecorationType.None)
-        Me.TabControl2.Location = New System.Drawing.Point(159, -11)
-        Me.TabControl2.Name = "TabControl2"
-        Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(484, 429)
-        Me.TabControl2.TabIndex = 0
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox2, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox2.Location = New System.Drawing.Point(20, 19)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
-        'TabPage3
+        'TabPage5
         '
-        Me.BunifuTransition1.SetDecoration(Me.TabPage3, BunifuAnimatorNS.DecorationType.None)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(476, 403)
-        Me.TabPage3.TabIndex = 0
-        Me.TabPage3.Text = "TabPage3"
-        Me.TabPage3.UseVisualStyleBackColor = True
+        Me.BunifuTransition1.SetDecoration(Me.TabPage5, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage5.TabIndex = 2
+        Me.TabPage5.Text = "Sieć"
+        Me.TabPage5.UseVisualStyleBackColor = True
         '
-        'TabPage4
+        'TabPage6
         '
-        Me.BunifuTransition1.SetDecoration(Me.TabPage4, BunifuAnimatorNS.DecorationType.None)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(192, 74)
-        Me.TabPage4.TabIndex = 1
-        Me.TabPage4.Text = "TabPage4"
-        Me.TabPage4.UseVisualStyleBackColor = True
+        Me.BunifuTransition1.SetDecoration(Me.TabPage6, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage6.TabIndex = 3
+        Me.TabPage6.Text = "Personalizacja"
+        Me.TabPage6.UseVisualStyleBackColor = True
         '
-        'Panel2
+        'TabPage7
         '
-        Me.BunifuTransition1.SetDecoration(Me.Panel2, BunifuAnimatorNS.DecorationType.None)
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(167, 414)
-        Me.Panel2.TabIndex = 1
+        Me.BunifuTransition1.SetDecoration(Me.TabPage7, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage7.TabIndex = 4
+        Me.TabPage7.Text = "Konta"
+        Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'TabPage8
+        '
+        Me.TabPage8.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.TabPage8.Controls.Add(Me.Panel3)
+        Me.TabPage8.Controls.Add(Me.TabControl3)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage8, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage8.TabIndex = 5
+        Me.TabPage8.Text = "Aktualizacje"
+        '
+        'TabPage9
+        '
+        Me.BunifuTransition1.SetDecoration(Me.TabPage9, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage9.Name = "TabPage9"
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage9.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage9.TabIndex = 6
+        Me.TabPage9.Text = "Zaawansowane"
+        Me.TabPage9.UseVisualStyleBackColor = True
+        '
+        'TabPage10
+        '
+        Me.TabPage10.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.TabPage10.Controls.Add(Me.Panel4)
+        Me.TabPage10.Controls.Add(Me.TabControl4)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage10, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage10.Name = "TabPage10"
+        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage10.Size = New System.Drawing.Size(639, 414)
+        Me.TabPage10.TabIndex = 7
+        Me.TabPage10.Text = "Kesa Cloud"
+        '
+        'TabControl3
+        '
+        Me.TabControl3.Controls.Add(Me.TabPage11)
+        Me.TabControl3.Controls.Add(Me.TabPage12)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl3, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl3.Location = New System.Drawing.Point(159, -11)
+        Me.TabControl3.Name = "TabControl3"
+        Me.TabControl3.SelectedIndex = 0
+        Me.TabControl3.Size = New System.Drawing.Size(484, 429)
+        Me.TabControl3.TabIndex = 1
+        '
+        'TabPage11
+        '
+        Me.TabPage11.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage11.Controls.Add(Me.Label2)
+        Me.TabPage11.Controls.Add(Me.PictureBox3)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage11, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage11.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage11.Name = "TabPage11"
+        Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage11.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage11.TabIndex = 0
+        Me.TabPage11.Text = "TabPage11"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox3, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox3.Location = New System.Drawing.Point(188, 19)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'TabPage12
+        '
+        Me.TabPage12.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.BunifuTransition1.SetDecoration(Me.TabPage12, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage12.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage12.Name = "TabPage12"
+        Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage12.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage12.TabIndex = 1
+        Me.TabPage12.Text = "TabPage12"
+        '
+        'Panel3
+        '
+        Me.BunifuTransition1.SetDecoration(Me.Panel3, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(167, 414)
+        Me.Panel3.TabIndex = 2
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.BunifuTransition1.SetDecoration(Me.Panel4, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel4.Location = New System.Drawing.Point(0, 0)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(167, 414)
+        Me.Panel4.TabIndex = 4
+        '
+        'TabControl4
+        '
+        Me.TabControl4.Controls.Add(Me.TabPage13)
+        Me.TabControl4.Controls.Add(Me.TabPage14)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl4, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl4.Location = New System.Drawing.Point(159, -11)
+        Me.TabControl4.Name = "TabControl4"
+        Me.TabControl4.SelectedIndex = 0
+        Me.TabControl4.Size = New System.Drawing.Size(484, 429)
+        Me.TabControl4.TabIndex = 3
+        '
+        'TabPage13
+        '
+        Me.TabPage13.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage13.Controls.Add(Me.PictureBox4)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage13, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage13.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage13.Name = "TabPage13"
+        Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage13.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage13.TabIndex = 0
+        Me.TabPage13.Text = "TabPage13"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox4, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox4.Location = New System.Drawing.Point(20, 19)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox4.TabIndex = 0
+        Me.PictureBox4.TabStop = False
+        '
+        'TabPage14
+        '
+        Me.TabPage14.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.BunifuTransition1.SetDecoration(Me.TabPage14, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage14.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage14.Name = "TabPage14"
+        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage14.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage14.TabIndex = 1
+        Me.TabPage14.Text = "TabPage14"
+        '
+        'Label2
+        '
+        Me.BunifuTransition1.SetDecoration(Me.Label2, BunifuAnimatorNS.DecorationType.None)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label2.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label2.Location = New System.Drawing.Point(0, 131)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(477, 29)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Ta wersja jest aktualna."
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'settings
         '
@@ -413,8 +646,18 @@ Partial Class settings
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage2.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl2.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage8.ResumeLayout(False)
+        Me.TabPage10.ResumeLayout(False)
+        Me.TabControl3.ResumeLayout(False)
+        Me.TabPage11.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl4.ResumeLayout(False)
+        Me.TabPage13.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -441,4 +684,22 @@ Partial Class settings
     Friend WithEvents TabControl2 As TabControl
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents TabPage7 As TabPage
+    Friend WithEvents TabPage8 As TabPage
+    Friend WithEvents TabControl3 As TabControl
+    Friend WithEvents TabPage11 As TabPage
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents TabPage12 As TabPage
+    Friend WithEvents TabPage9 As TabPage
+    Friend WithEvents TabPage10 As TabPage
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents TabControl4 As TabControl
+    Friend WithEvents TabPage13 As TabPage
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents TabPage14 As TabPage
 End Class
