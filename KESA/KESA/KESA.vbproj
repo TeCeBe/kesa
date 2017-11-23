@@ -180,6 +180,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="settings aplets\adduser.Designer.vb">
+      <DependentUpon>adduser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="settings aplets\adduser.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="apps\about.resx">
@@ -229,6 +235,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings aplets\adduser.resx">
+      <DependentUpon>adduser.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

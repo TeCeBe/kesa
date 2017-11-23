@@ -103,6 +103,7 @@ Partial Class settings
         Me.BunifuTileButton8.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton8.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton8, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton8.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton8.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton8.Image = CType(resources.GetObject("BunifuTileButton8.Image"), System.Drawing.Image)
@@ -122,6 +123,7 @@ Partial Class settings
         Me.BunifuTileButton7.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton7.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton7.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton7.Image = CType(resources.GetObject("BunifuTileButton7.Image"), System.Drawing.Image)
@@ -141,6 +143,7 @@ Partial Class settings
         Me.BunifuTileButton6.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton6.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton6, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton6.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton6.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton6.Image = CType(resources.GetObject("BunifuTileButton6.Image"), System.Drawing.Image)
@@ -160,6 +163,7 @@ Partial Class settings
         Me.BunifuTileButton5.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton5.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton5, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton5.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton5.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton5.Image = CType(resources.GetObject("BunifuTileButton5.Image"), System.Drawing.Image)
@@ -179,6 +183,7 @@ Partial Class settings
         Me.BunifuTileButton4.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton4.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton4, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton4.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton4.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton4.Image = CType(resources.GetObject("BunifuTileButton4.Image"), System.Drawing.Image)
@@ -198,6 +203,7 @@ Partial Class settings
         Me.BunifuTileButton3.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton3.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton3, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton3.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton3.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton3.Image = CType(resources.GetObject("BunifuTileButton3.Image"), System.Drawing.Image)
@@ -217,6 +223,7 @@ Partial Class settings
         Me.BunifuTileButton2.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton2.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton2, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton2.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton2.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton2.Image = CType(resources.GetObject("BunifuTileButton2.Image"), System.Drawing.Image)
@@ -236,6 +243,7 @@ Partial Class settings
         Me.BunifuTileButton1.color = System.Drawing.Color.SeaGreen
         Me.BunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen
         Me.BunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton1, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTileButton1.Font = New System.Drawing.Font("Segoe UI", 13.0!)
         Me.BunifuTileButton1.ForeColor = System.Drawing.Color.White
         Me.BunifuTileButton1.Image = CType(resources.GetObject("BunifuTileButton1.Image"), System.Drawing.Image)
@@ -262,6 +270,7 @@ Partial Class settings
         '
         'Label1
         '
+        Me.BunifuTransition1.SetDecoration(Me.Label1, BunifuAnimatorNS.DecorationType.None)
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
@@ -308,6 +317,7 @@ Partial Class settings
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox1, BunifuAnimatorNS.DecorationType.None)
         Me.PictureBox1.Location = New System.Drawing.Point(616, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(21, 21)
@@ -326,7 +336,7 @@ Partial Class settings
         Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
         Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
         Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
         Animation1.RotateCoeff = 0!
         Animation1.RotateLimit = 0!
         Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)

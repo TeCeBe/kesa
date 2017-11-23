@@ -25,7 +25,7 @@ Partial Class msgbox_warning
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(msgbox_warning))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.info = New System.Windows.Forms.Label()
         Me.title = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuThinButton21 = New ns1.BunifuThinButton2()
@@ -42,16 +42,16 @@ Partial Class msgbox_warning
         Me.Panel1.Size = New System.Drawing.Size(520, 10)
         Me.Panel1.TabIndex = 22
         '
-        'Label1
+        'info
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label1.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label1.Location = New System.Drawing.Point(0, 152)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(520, 98)
-        Me.Label1.TabIndex = 21
-        Me.Label1.Text = "line1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line4" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.info.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
+        Me.info.ForeColor = System.Drawing.Color.DarkGray
+        Me.info.Location = New System.Drawing.Point(0, 152)
+        Me.info.Name = "info"
+        Me.info.Size = New System.Drawing.Size(520, 98)
+        Me.info.TabIndex = 21
+        Me.info.Text = "line1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "line4" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'title
         '
@@ -113,7 +113,7 @@ Partial Class msgbox_warning
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(520, 300)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.info)
         Me.Controls.Add(Me.title)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.BunifuThinButton21)
@@ -128,7 +128,7 @@ Partial Class msgbox_warning
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents info As Label
     Friend WithEvents title As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuThinButton21 As ns1.BunifuThinButton2
