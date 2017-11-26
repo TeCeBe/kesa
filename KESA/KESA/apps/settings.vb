@@ -11,4 +11,8 @@
         TabControl1.SelectedTab = TabPage1
         BunifuThinButton21.Hide()
     End Sub
+
+    Private Sub BunifuTileButton1_Click(sender As Object, e As EventArgs) Handles BunifuTileButton1.Click
+
+    End Sub
 End Class
