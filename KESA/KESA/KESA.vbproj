@@ -53,7 +53,7 @@
     </Reference>
     <Reference Include="CoreAudio, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CoreAudio.dll</HintPath>
+      <HintPath>D:\Pobrane IV\CoreAudio\CoreAudio\CoreAudio\bin\CoreAudio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -141,6 +141,12 @@
     <Compile Include="messageboxes\msgbox_error.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\authorizationform.Designer.vb">
+      <DependentUpon>authorizationform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\authorizationform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modules\explorer.Designer.vb">
       <DependentUpon>explorer.vb</DependentUpon>
     </Compile>
@@ -217,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="messageboxes\msgbox_error.resx">
       <DependentUpon>msgbox_error.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modules\authorizationform.resx">
+      <DependentUpon>authorizationform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modules\explorer.resx">
       <DependentUpon>explorer.vb</DependentUpon>
