@@ -17,7 +17,7 @@ Namespace My.Resources
     
     'Ta klasa została automatycznie wygenerowana za pomocą klasy StronglyTypedResourceBuilder
     'przez narzędzie, takie jak ResGen lub Visual Studio.
-    'Aby dodać lub usunąć członka, edytuj plik .ResX, a następnie ponownie uruchom ResGen
+    'Aby dodać lub usunąć składową, edytuj plik ResX, a następnie ponownie uruchom narzędzie ResGen
     'z opcją /str lub ponownie utwórz projekt VS.
     '''<summary>
     '''  Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
@@ -66,6 +66,136 @@ Namespace My.Resources
         Friend ReadOnly Property _error() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("error", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property connection_lost() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("connection_lost", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property connection_ok() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("connection_ok", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property connection_warning() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("connection_warning", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_forwardbtn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_forwardbtn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_pausebtn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_pausebtn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_playbtn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_playbtn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_repeat() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_repeat", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_repeat_off() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_repeat_off", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_rewindbtn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_rewindbtn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_shuffle() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_shuffle", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_shuffle_off() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_shuffle_off", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_speaker100() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_speaker100", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_speakermute() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_speakermute", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

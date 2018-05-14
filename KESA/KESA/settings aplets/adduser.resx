@@ -158,7 +158,19 @@
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
+  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>324, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABGdBTUEAALGPC/xhBQAAAMNJREFUOE/d
+        lFsKwjAURLOEBnfgX9E/9+NaxMWIbkX75wPUrahx5t4EoaaxmIjogUOcWzrYJtQEnHMWTjK0vkrBYA6v
+        MIcLnIXCAbxxWgD2WJbWEstR/0fpFB705xN7yOsxkqVnOIYbSQ+YOef1GC8f/wRHcC1JV2bOu+j1TreQ
+        RQu/7mCK3hu19Gd6pTHJd/4pN4VFR0m6MjeS4iRLeSN3ub0pzJx3FSdLP3JO3+XHSst/T/2hLvvlD2BQ
+        wWGGlTYZcwe8flxSTNZiDwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="BunifuFlatButton1.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -222,18 +234,6 @@
         Vu+NkQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="PictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABGdBTUEAALGPC/xhBQAAAMNJREFUOE/d
-        lFsKwjAURLOEBnfgX9E/9+NaxMWIbkX75wPUrahx5t4EoaaxmIjogUOcWzrYJtQEnHMWTjK0vkrBYA6v
-        MIcLnIXCAbxxWgD2WJbWEstR/0fpFB705xN7yOsxkqVnOIYbSQ+YOef1GC8f/wRHcC1JV2bOu+j1TreQ
-        RQu/7mCK3hu19Gd6pTHJd/4pN4VFR0m6MjeS4iRLeSN3ub0pzJx3FSdLP3JO3+XHSst/T/2hLvvlD2BQ
-        wWGGlTYZcwe8flxSTNZiDwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>324, 17</value>
-  </metadata>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>448, 17</value>
   </metadata>

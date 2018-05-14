@@ -86,16 +86,46 @@
     <Compile Include="apps\about.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="apps\browser.Designer.vb">
+      <DependentUpon>browser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\browser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\developercentre_login.Designer.vb">
+      <DependentUpon>developercentre_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\developercentre_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\musicplayer.Designer.vb">
+      <DependentUpon>musicplayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\musicplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="apps\settings.Designer.vb">
       <DependentUpon>settings.vb</DependentUpon>
     </Compile>
     <Compile Include="apps\settings.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="apps\terminal.Designer.vb">
+      <DependentUpon>terminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps\terminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="bg.Designer.vb">
       <DependentUpon>bg.vb</DependentUpon>
     </Compile>
     <Compile Include="bg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bg_black.Designer.vb">
+      <DependentUpon>bg_black.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bg_black.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="bootstrap.vb">
@@ -109,6 +139,18 @@
       <DependentUpon>desktop.vb</DependentUpon>
     </Compile>
     <Compile Include="desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errorscreen.Designer.vb">
+      <DependentUpon>errorscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="errorscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="integrityverifier.Designer.vb">
+      <DependentUpon>integrityverifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="integrityverifier.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="loginscreen.Designer.vb">
@@ -159,18 +201,28 @@
     <Compile Include="modules\loadingform.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\shutdown.Designer.vb">
+      <DependentUpon>shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modules\theme_preview_window.Designer.vb">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
     </Compile>
     <Compile Include="modules\theme_preview_window.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modules\thirdpartymodules.Designer.vb">
+      <DependentUpon>thirdpartymodules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modules\thirdpartymodules.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modules\volume_level.Designer.vb">
       <DependentUpon>volume_level.vb</DependentUpon>
     </Compile>
-    <Compile Include="modules\volume_level.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="modules\volume_level.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -186,6 +238,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="settings aplets\about_pc.Designer.vb">
+      <DependentUpon>about_pc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="settings aplets\about_pc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="settings aplets\adduser.Designer.vb">
       <DependentUpon>adduser.vb</DependentUpon>
     </Compile>
@@ -197,17 +255,38 @@
     <EmbeddedResource Include="apps\about.resx">
       <DependentUpon>about.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="apps\browser.resx">
+      <DependentUpon>browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\developercentre_login.resx">
+      <DependentUpon>developercentre_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\musicplayer.resx">
+      <DependentUpon>musicplayer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="apps\settings.resx">
       <DependentUpon>settings.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="apps\terminal.resx">
+      <DependentUpon>terminal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bg.resx">
       <DependentUpon>bg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bg_black.resx">
+      <DependentUpon>bg_black.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bootstrap.resx">
       <DependentUpon>bootstrap.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="desktop.resx">
       <DependentUpon>desktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errorscreen.resx">
+      <DependentUpon>errorscreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="integrityverifier.resx">
+      <DependentUpon>integrityverifier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginscreen.resx">
       <DependentUpon>loginscreen.vb</DependentUpon>
@@ -233,8 +312,14 @@
     <EmbeddedResource Include="modules\loadingform.resx">
       <DependentUpon>loadingform.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="modules\shutdown.resx">
+      <DependentUpon>shutdown.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="modules\theme_preview_window.resx">
       <DependentUpon>theme_preview_window.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modules\thirdpartymodules.resx">
+      <DependentUpon>thirdpartymodules.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modules\volume_level.resx">
       <DependentUpon>volume_level.vb</DependentUpon>
@@ -244,6 +329,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings aplets\about_pc.resx">
+      <DependentUpon>about_pc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="settings aplets\adduser.resx">
       <DependentUpon>adduser.vb</DependentUpon>
@@ -267,6 +355,44 @@
   <ItemGroup>
     <None Include="Resources\warning.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\player_playbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_pausebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_rewindbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_forwardbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_speakermute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_speaker100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_shuffle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_repeat_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_shuffle_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connection_ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connection_lost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connection_warning.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

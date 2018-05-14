@@ -30,8 +30,8 @@ Partial Class settings
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.BunifuTileButton8 = New ns1.BunifuTileButton()
         Me.BunifuTileButton7 = New ns1.BunifuTileButton()
+        Me.BunifuTileButton8 = New ns1.BunifuTileButton()
         Me.BunifuTileButton6 = New ns1.BunifuTileButton()
         Me.BunifuTileButton5 = New ns1.BunifuTileButton()
         Me.BunifuTileButton4 = New ns1.BunifuTileButton()
@@ -40,17 +40,50 @@ Partial Class settings
         Me.BunifuTileButton1 = New ns1.BunifuTileButton()
         Me.tab_system = New System.Windows.Forms.TabPage()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.BunifuFlatButton9 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton8 = New ns1.BunifuFlatButton()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.tab_network = New System.Windows.Forms.TabPage()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.BunifuFlatButton16 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton15 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton13 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton14 = New ns1.BunifuFlatButton()
+        Me.TabControl7 = New System.Windows.Forms.TabControl()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.BunifuiOSSwitch1 = New ns1.BunifuiOSSwitch()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.BunifuiOSSwitch2 = New ns1.BunifuiOSSwitch()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TabPage9 = New System.Windows.Forms.TabPage()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.tab_personalization = New System.Windows.Forms.TabPage()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.BunifuFlatButton12 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton11 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton10 = New ns1.BunifuFlatButton()
         Me.TabControl6 = New System.Windows.Forms.TabControl()
         Me.TabPage17 = New System.Windows.Forms.TabPage()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.TabPage18 = New System.Windows.Forms.TabPage()
         Me.tab_accounts = New System.Windows.Forms.TabPage()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.TabControl4 = New System.Windows.Forms.TabControl()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.BunifuFlatButton6 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton7 = New ns1.BunifuFlatButton()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.tab_updates = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
@@ -66,6 +99,8 @@ Partial Class settings
         Me.TabPage12 = New System.Windows.Forms.TabPage()
         Me.tab_advanced = New System.Windows.Forms.TabPage()
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.BunifuFlatButton4 = New ns1.BunifuFlatButton()
+        Me.BunifuFlatButton5 = New ns1.BunifuFlatButton()
         Me.TabControl5 = New System.Windows.Forms.TabControl()
         Me.TabPage15 = New System.Windows.Forms.TabPage()
         Me.BunifuDropdown2 = New ns1.BunifuDropdown()
@@ -89,12 +124,9 @@ Partial Class settings
         Me.BunifuCheckbox2 = New ns1.BunifuCheckbox()
         Me.BunifuCheckbox1 = New ns1.BunifuCheckbox()
         Me.TabPage16 = New System.Windows.Forms.TabPage()
-        Me.tab_cloud = New System.Windows.Forms.TabPage()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TabControl4 = New System.Windows.Forms.TabControl()
-        Me.TabPage13 = New System.Windows.Forms.TabPage()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.TabPage14 = New System.Windows.Forms.TabPage()
+        Me.BunifuDropdown3 = New ns1.BunifuDropdown()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.BunifuCheckbox7 = New ns1.BunifuCheckbox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BunifuDragControl1 = New ns1.BunifuDragControl(Me.components)
         Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
@@ -102,7 +134,8 @@ Partial Class settings
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuTransition2 = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.BunifuElipse2 = New ns1.BunifuElipse(Me.components)
-        Me.BunifuFlatButton4 = New ns1.BunifuFlatButton()
+        Me.anim_fadein = New System.Windows.Forms.Timer(Me.components)
+        Me.anim_fadeout = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -111,20 +144,34 @@ Partial Class settings
         Me.TabControl2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tab_network.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.TabControl7.SuspendLayout()
+        Me.TabPage6.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage7.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage8.SuspendLayout()
+        Me.TabPage9.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tab_personalization.SuspendLayout()
+        Me.Panel6.SuspendLayout()
         Me.TabControl6.SuspendLayout()
+        Me.TabPage17.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tab_accounts.SuspendLayout()
+        Me.TabControl4.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.tab_updates.SuspendLayout()
         Me.TabControl3.SuspendLayout()
         Me.TabPage11.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tab_advanced.SuspendLayout()
+        Me.Panel5.SuspendLayout()
         Me.TabControl5.SuspendLayout()
         Me.TabPage15.SuspendLayout()
-        Me.tab_cloud.SuspendLayout()
-        Me.TabControl4.SuspendLayout()
-        Me.TabPage13.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage16.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -156,7 +203,6 @@ Partial Class settings
         Me.TabControl1.Controls.Add(Me.tab_accounts)
         Me.TabControl1.Controls.Add(Me.tab_updates)
         Me.TabControl1.Controls.Add(Me.tab_advanced)
-        Me.TabControl1.Controls.Add(Me.tab_cloud)
         Me.BunifuTransition2.SetDecoration(Me.TabControl1, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.TabControl1, BunifuAnimatorNS.DecorationType.None)
         Me.TabControl1.Location = New System.Drawing.Point(-4, -11)
@@ -168,8 +214,8 @@ Partial Class settings
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.TabPage1.Controls.Add(Me.BunifuTileButton8)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton7)
+        Me.TabPage1.Controls.Add(Me.BunifuTileButton8)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton6)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton5)
         Me.TabPage1.Controls.Add(Me.BunifuTileButton4)
@@ -184,6 +230,27 @@ Partial Class settings
         Me.TabPage1.Size = New System.Drawing.Size(639, 414)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Główne"
+        '
+        'BunifuTileButton7
+        '
+        Me.BunifuTileButton7.BackColor = System.Drawing.Color.SeaGreen
+        Me.BunifuTileButton7.color = System.Drawing.Color.SeaGreen
+        Me.BunifuTileButton7.colorActive = System.Drawing.Color.MediumSeaGreen
+        Me.BunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTileButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.BunifuTileButton7.ForeColor = System.Drawing.Color.White
+        Me.BunifuTileButton7.Image = CType(resources.GetObject("BunifuTileButton7.Image"), System.Drawing.Image)
+        Me.BunifuTileButton7.ImagePosition = 25
+        Me.BunifuTileButton7.ImageZoom = 40
+        Me.BunifuTileButton7.LabelPosition = 38
+        Me.BunifuTileButton7.LabelText = "Extra 2"
+        Me.BunifuTileButton7.Location = New System.Drawing.Point(465, 212)
+        Me.BunifuTileButton7.Margin = New System.Windows.Forms.Padding(6)
+        Me.BunifuTileButton7.Name = "BunifuTileButton7"
+        Me.BunifuTileButton7.Size = New System.Drawing.Size(128, 129)
+        Me.BunifuTileButton7.TabIndex = 16
         '
         'BunifuTileButton8
         '
@@ -200,32 +267,11 @@ Partial Class settings
         Me.BunifuTileButton8.ImageZoom = 40
         Me.BunifuTileButton8.LabelPosition = 38
         Me.BunifuTileButton8.LabelText = "Extra 1"
-        Me.BunifuTileButton8.Location = New System.Drawing.Point(465, 212)
+        Me.BunifuTileButton8.Location = New System.Drawing.Point(325, 212)
         Me.BunifuTileButton8.Margin = New System.Windows.Forms.Padding(6)
         Me.BunifuTileButton8.Name = "BunifuTileButton8"
         Me.BunifuTileButton8.Size = New System.Drawing.Size(128, 129)
         Me.BunifuTileButton8.TabIndex = 15
-        '
-        'BunifuTileButton7
-        '
-        Me.BunifuTileButton7.BackColor = System.Drawing.Color.SeaGreen
-        Me.BunifuTileButton7.color = System.Drawing.Color.SeaGreen
-        Me.BunifuTileButton7.colorActive = System.Drawing.Color.MediumSeaGreen
-        Me.BunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuTransition2.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.BunifuTileButton7, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTileButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.BunifuTileButton7.ForeColor = System.Drawing.Color.White
-        Me.BunifuTileButton7.Image = CType(resources.GetObject("BunifuTileButton7.Image"), System.Drawing.Image)
-        Me.BunifuTileButton7.ImagePosition = 25
-        Me.BunifuTileButton7.ImageZoom = 40
-        Me.BunifuTileButton7.LabelPosition = 38
-        Me.BunifuTileButton7.LabelText = "Kesa Cloud"
-        Me.BunifuTileButton7.Location = New System.Drawing.Point(325, 212)
-        Me.BunifuTileButton7.Margin = New System.Windows.Forms.Padding(6)
-        Me.BunifuTileButton7.Name = "BunifuTileButton7"
-        Me.BunifuTileButton7.Size = New System.Drawing.Size(128, 129)
-        Me.BunifuTileButton7.TabIndex = 14
         '
         'BunifuTileButton6
         '
@@ -371,13 +417,86 @@ Partial Class settings
         '
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel2.Controls.Add(Me.BunifuFlatButton4)
+        Me.Panel2.Controls.Add(Me.BunifuFlatButton9)
+        Me.Panel2.Controls.Add(Me.BunifuFlatButton8)
         Me.BunifuTransition2.SetDecoration(Me.Panel2, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.Panel2, BunifuAnimatorNS.DecorationType.None)
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(167, 414)
+        Me.Panel2.Size = New System.Drawing.Size(167, 418)
         Me.Panel2.TabIndex = 1
+        '
+        'BunifuFlatButton9
+        '
+        Me.BunifuFlatButton9.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton9.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton9.BorderRadius = 0
+        Me.BunifuFlatButton9.ButtonText = "O systemie"
+        Me.BunifuFlatButton9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton9, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton9, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton9.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton9.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton9.Iconimage = Nothing
+        Me.BunifuFlatButton9.Iconimage_right = Nothing
+        Me.BunifuFlatButton9.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton9.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton9.IconMarginLeft = 0
+        Me.BunifuFlatButton9.IconMarginRight = 0
+        Me.BunifuFlatButton9.IconRightVisible = False
+        Me.BunifuFlatButton9.IconRightZoom = 0R
+        Me.BunifuFlatButton9.IconVisible = False
+        Me.BunifuFlatButton9.IconZoom = 0R
+        Me.BunifuFlatButton9.IsTab = False
+        Me.BunifuFlatButton9.Location = New System.Drawing.Point(-4, 54)
+        Me.BunifuFlatButton9.Name = "BunifuFlatButton9"
+        Me.BunifuFlatButton9.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton9.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton9.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton9.selected = False
+        Me.BunifuFlatButton9.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton9.TabIndex = 22
+        Me.BunifuFlatButton9.Text = "O systemie"
+        Me.BunifuFlatButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton9.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton9.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton8
+        '
+        Me.BunifuFlatButton8.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton8.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton8.BorderRadius = 0
+        Me.BunifuFlatButton8.ButtonText = "Ogólne"
+        Me.BunifuFlatButton8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton8, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton8, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton8.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton8.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton8.Iconimage = Nothing
+        Me.BunifuFlatButton8.Iconimage_right = Nothing
+        Me.BunifuFlatButton8.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton8.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton8.IconMarginLeft = 0
+        Me.BunifuFlatButton8.IconMarginRight = 0
+        Me.BunifuFlatButton8.IconRightVisible = False
+        Me.BunifuFlatButton8.IconRightZoom = 0R
+        Me.BunifuFlatButton8.IconVisible = False
+        Me.BunifuFlatButton8.IconZoom = 0R
+        Me.BunifuFlatButton8.IsTab = False
+        Me.BunifuFlatButton8.Location = New System.Drawing.Point(-4, 19)
+        Me.BunifuFlatButton8.Name = "BunifuFlatButton8"
+        Me.BunifuFlatButton8.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton8.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton8.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton8.selected = False
+        Me.BunifuFlatButton8.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton8.TabIndex = 21
+        Me.BunifuFlatButton8.Text = "Ogólne"
+        Me.BunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton8.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton8.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
         '
         'TabControl2
         '
@@ -431,6 +550,9 @@ Partial Class settings
         '
         'tab_network
         '
+        Me.tab_network.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.tab_network.Controls.Add(Me.Panel7)
+        Me.tab_network.Controls.Add(Me.TabControl7)
         Me.BunifuTransition2.SetDecoration(Me.tab_network, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.tab_network, BunifuAnimatorNS.DecorationType.None)
         Me.tab_network.Location = New System.Drawing.Point(4, 22)
@@ -439,7 +561,390 @@ Partial Class settings
         Me.tab_network.Size = New System.Drawing.Size(639, 414)
         Me.tab_network.TabIndex = 2
         Me.tab_network.Text = "Sieć"
-        Me.tab_network.UseVisualStyleBackColor = True
+        '
+        'Panel7
+        '
+        Me.Panel7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.Panel7.Controls.Add(Me.BunifuFlatButton16)
+        Me.Panel7.Controls.Add(Me.BunifuFlatButton15)
+        Me.Panel7.Controls.Add(Me.BunifuFlatButton13)
+        Me.Panel7.Controls.Add(Me.BunifuFlatButton14)
+        Me.BunifuTransition2.SetDecoration(Me.Panel7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.Panel7, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel7.Location = New System.Drawing.Point(0, 0)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(167, 418)
+        Me.Panel7.TabIndex = 2
+        '
+        'BunifuFlatButton16
+        '
+        Me.BunifuFlatButton16.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton16.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton16.BorderRadius = 0
+        Me.BunifuFlatButton16.ButtonText = "Bluetooth"
+        Me.BunifuFlatButton16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton16, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton16, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton16.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton16.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton16.Iconimage = Nothing
+        Me.BunifuFlatButton16.Iconimage_right = Nothing
+        Me.BunifuFlatButton16.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton16.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton16.IconMarginLeft = 0
+        Me.BunifuFlatButton16.IconMarginRight = 0
+        Me.BunifuFlatButton16.IconRightVisible = False
+        Me.BunifuFlatButton16.IconRightZoom = 0R
+        Me.BunifuFlatButton16.IconVisible = False
+        Me.BunifuFlatButton16.IconZoom = 0R
+        Me.BunifuFlatButton16.IsTab = False
+        Me.BunifuFlatButton16.Location = New System.Drawing.Point(-4, 124)
+        Me.BunifuFlatButton16.Name = "BunifuFlatButton16"
+        Me.BunifuFlatButton16.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton16.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton16.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton16.selected = False
+        Me.BunifuFlatButton16.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton16.TabIndex = 24
+        Me.BunifuFlatButton16.Text = "Bluetooth"
+        Me.BunifuFlatButton16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton16.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton16.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton15
+        '
+        Me.BunifuFlatButton15.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton15.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton15.BorderRadius = 0
+        Me.BunifuFlatButton15.ButtonText = "Ethernet"
+        Me.BunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton15, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton15, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton15.Iconimage = Nothing
+        Me.BunifuFlatButton15.Iconimage_right = Nothing
+        Me.BunifuFlatButton15.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton15.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton15.IconMarginLeft = 0
+        Me.BunifuFlatButton15.IconMarginRight = 0
+        Me.BunifuFlatButton15.IconRightVisible = False
+        Me.BunifuFlatButton15.IconRightZoom = 0R
+        Me.BunifuFlatButton15.IconVisible = False
+        Me.BunifuFlatButton15.IconZoom = 0R
+        Me.BunifuFlatButton15.IsTab = False
+        Me.BunifuFlatButton15.Location = New System.Drawing.Point(-4, 89)
+        Me.BunifuFlatButton15.Name = "BunifuFlatButton15"
+        Me.BunifuFlatButton15.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton15.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton15.selected = False
+        Me.BunifuFlatButton15.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton15.TabIndex = 23
+        Me.BunifuFlatButton15.Text = "Ethernet"
+        Me.BunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton15.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton15.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton13
+        '
+        Me.BunifuFlatButton13.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton13.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton13.BorderRadius = 0
+        Me.BunifuFlatButton13.ButtonText = "Wi-Fi"
+        Me.BunifuFlatButton13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton13, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton13, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton13.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton13.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton13.Iconimage = Nothing
+        Me.BunifuFlatButton13.Iconimage_right = Nothing
+        Me.BunifuFlatButton13.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton13.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton13.IconMarginLeft = 0
+        Me.BunifuFlatButton13.IconMarginRight = 0
+        Me.BunifuFlatButton13.IconRightVisible = False
+        Me.BunifuFlatButton13.IconRightZoom = 0R
+        Me.BunifuFlatButton13.IconVisible = False
+        Me.BunifuFlatButton13.IconZoom = 0R
+        Me.BunifuFlatButton13.IsTab = False
+        Me.BunifuFlatButton13.Location = New System.Drawing.Point(-4, 54)
+        Me.BunifuFlatButton13.Name = "BunifuFlatButton13"
+        Me.BunifuFlatButton13.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton13.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton13.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton13.selected = False
+        Me.BunifuFlatButton13.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton13.TabIndex = 22
+        Me.BunifuFlatButton13.Text = "Wi-Fi"
+        Me.BunifuFlatButton13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton13.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton13.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton14
+        '
+        Me.BunifuFlatButton14.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton14.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton14.BorderRadius = 0
+        Me.BunifuFlatButton14.ButtonText = "Ogólne"
+        Me.BunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton14, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton14, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton14.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton14.Iconimage = Nothing
+        Me.BunifuFlatButton14.Iconimage_right = Nothing
+        Me.BunifuFlatButton14.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton14.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton14.IconMarginLeft = 0
+        Me.BunifuFlatButton14.IconMarginRight = 0
+        Me.BunifuFlatButton14.IconRightVisible = False
+        Me.BunifuFlatButton14.IconRightZoom = 0R
+        Me.BunifuFlatButton14.IconVisible = False
+        Me.BunifuFlatButton14.IconZoom = 0R
+        Me.BunifuFlatButton14.IsTab = False
+        Me.BunifuFlatButton14.Location = New System.Drawing.Point(-4, 19)
+        Me.BunifuFlatButton14.Name = "BunifuFlatButton14"
+        Me.BunifuFlatButton14.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton14.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton14.selected = False
+        Me.BunifuFlatButton14.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton14.TabIndex = 21
+        Me.BunifuFlatButton14.Text = "Ogólne"
+        Me.BunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton14.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton14.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'TabControl7
+        '
+        Me.TabControl7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TabControl7.Controls.Add(Me.TabPage6)
+        Me.TabControl7.Controls.Add(Me.TabPage7)
+        Me.TabControl7.Controls.Add(Me.TabPage8)
+        Me.TabControl7.Controls.Add(Me.TabPage9)
+        Me.BunifuTransition2.SetDecoration(Me.TabControl7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl7, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl7.Location = New System.Drawing.Point(160, -10)
+        Me.TabControl7.Name = "TabControl7"
+        Me.TabControl7.SelectedIndex = 0
+        Me.TabControl7.Size = New System.Drawing.Size(484, 429)
+        Me.TabControl7.TabIndex = 3
+        '
+        'TabPage6
+        '
+        Me.TabPage6.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage6.Controls.Add(Me.Label15)
+        Me.TabPage6.Controls.Add(Me.PictureBox4)
+        Me.TabPage6.Controls.Add(Me.Label14)
+        Me.TabPage6.Controls.Add(Me.BunifuiOSSwitch1)
+        Me.BunifuTransition2.SetDecoration(Me.TabPage6, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage6, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage6.TabIndex = 0
+        Me.TabPage6.Text = "TabPage6"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label15, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label15, BunifuAnimatorNS.DecorationType.None)
+        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Label15.ForeColor = System.Drawing.Color.Yellow
+        Me.Label15.Location = New System.Drawing.Point(152, 22)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(279, 15)
+        Me.Label15.TabIndex = 8
+        Me.Label15.Text = "Ta funkcja nie jest dostępna na Twoim komputerze."
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox4, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.PictureBox4, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox4.Location = New System.Drawing.Point(122, 17)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(24, 24)
+        Me.PictureBox4.TabIndex = 7
+        Me.PictureBox4.TabStop = False
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label14, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label14, BunifuAnimatorNS.DecorationType.None)
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Label14.Location = New System.Drawing.Point(16, 18)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(47, 21)
+        Me.Label14.TabIndex = 6
+        Me.Label14.Text = "Wi-Fi"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuiOSSwitch1
+        '
+        Me.BunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuiOSSwitch1.BackgroundImage = CType(resources.GetObject("BunifuiOSSwitch1.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuiOSSwitch1, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuiOSSwitch1, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuiOSSwitch1.Location = New System.Drawing.Point(69, 16)
+        Me.BunifuiOSSwitch1.Name = "BunifuiOSSwitch1"
+        Me.BunifuiOSSwitch1.OffColor = System.Drawing.Color.Silver
+        Me.BunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.BunifuiOSSwitch1.Size = New System.Drawing.Size(43, 25)
+        Me.BunifuiOSSwitch1.TabIndex = 0
+        Me.BunifuiOSSwitch1.Value = False
+        '
+        'TabPage7
+        '
+        Me.TabPage7.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage7.Controls.Add(Me.Label16)
+        Me.TabPage7.Controls.Add(Me.Label17)
+        Me.TabPage7.Controls.Add(Me.PictureBox6)
+        Me.TabPage7.Controls.Add(Me.BunifuiOSSwitch2)
+        Me.BunifuTransition2.SetDecoration(Me.TabPage7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage7, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage7.TabIndex = 1
+        Me.TabPage7.Text = "TabPage7"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label16, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label16, BunifuAnimatorNS.DecorationType.None)
+        Me.Label16.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Label16.ForeColor = System.Drawing.Color.Yellow
+        Me.Label16.Location = New System.Drawing.Point(182, 22)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(279, 15)
+        Me.Label16.TabIndex = 12
+        Me.Label16.Text = "Ta funkcja nie jest dostępna na Twoim komputerze."
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label17, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label17, BunifuAnimatorNS.DecorationType.None)
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Label17.Location = New System.Drawing.Point(16, 18)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(77, 21)
+        Me.Label17.TabIndex = 10
+        Me.Label17.Text = "Bluetooth"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox6, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.PictureBox6, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox6.Location = New System.Drawing.Point(152, 17)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(24, 24)
+        Me.PictureBox6.TabIndex = 11
+        Me.PictureBox6.TabStop = False
+        '
+        'BunifuiOSSwitch2
+        '
+        Me.BunifuiOSSwitch2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuiOSSwitch2.BackgroundImage = CType(resources.GetObject("BunifuiOSSwitch2.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuiOSSwitch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuiOSSwitch2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuiOSSwitch2, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuiOSSwitch2, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuiOSSwitch2.Location = New System.Drawing.Point(99, 16)
+        Me.BunifuiOSSwitch2.Name = "BunifuiOSSwitch2"
+        Me.BunifuiOSSwitch2.OffColor = System.Drawing.Color.Silver
+        Me.BunifuiOSSwitch2.OnColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.BunifuiOSSwitch2.Size = New System.Drawing.Size(43, 25)
+        Me.BunifuiOSSwitch2.TabIndex = 9
+        Me.BunifuiOSSwitch2.Value = False
+        '
+        'TabPage8
+        '
+        Me.TabPage8.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage8.Controls.Add(Me.Label18)
+        Me.BunifuTransition2.SetDecoration(Me.TabPage8, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage8, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage8.TabIndex = 2
+        Me.TabPage8.Text = "TabPage8"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label18, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label18, BunifuAnimatorNS.DecorationType.None)
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Label18.Location = New System.Drawing.Point(16, 18)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(68, 21)
+        Me.Label18.TabIndex = 11
+        Me.Label18.Text = "Ethernet"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TabPage9
+        '
+        Me.TabPage9.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage9.Controls.Add(Me.Label19)
+        Me.TabPage9.Controls.Add(Me.PictureBox7)
+        Me.BunifuTransition2.SetDecoration(Me.TabPage9, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage9, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage9.Name = "TabPage9"
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage9.Size = New System.Drawing.Size(476, 403)
+        Me.TabPage9.TabIndex = 3
+        Me.TabPage9.Text = "TabPage9"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label19, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label19, BunifuAnimatorNS.DecorationType.None)
+        Me.Label19.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Label19.Location = New System.Drawing.Point(198, 158)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(81, 21)
+        Me.Label19.TabIndex = 14
+        Me.Label19.Text = "Połączono"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackgroundImage = Global.KESA.My.Resources.Resources.connection_ok
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.PictureBox7, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox7.Location = New System.Drawing.Point(188, 48)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox7.TabIndex = 13
+        Me.PictureBox7.TabStop = False
         '
         'tab_personalization
         '
@@ -457,7 +962,12 @@ Partial Class settings
         '
         'Panel6
         '
+        Me.Panel6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.Panel6.Controls.Add(Me.BunifuFlatButton12)
+        Me.Panel6.Controls.Add(Me.BunifuFlatButton11)
+        Me.Panel6.Controls.Add(Me.BunifuFlatButton10)
         Me.BunifuTransition2.SetDecoration(Me.Panel6, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.Panel6, BunifuAnimatorNS.DecorationType.None)
         Me.Panel6.Location = New System.Drawing.Point(0, 0)
@@ -465,8 +975,118 @@ Partial Class settings
         Me.Panel6.Size = New System.Drawing.Size(167, 414)
         Me.Panel6.TabIndex = 5
         '
+        'BunifuFlatButton12
+        '
+        Me.BunifuFlatButton12.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton12.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton12.BorderRadius = 0
+        Me.BunifuFlatButton12.ButtonText = "Inne"
+        Me.BunifuFlatButton12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton12, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton12, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton12.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton12.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton12.Iconimage = Nothing
+        Me.BunifuFlatButton12.Iconimage_right = Nothing
+        Me.BunifuFlatButton12.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton12.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton12.IconMarginLeft = 0
+        Me.BunifuFlatButton12.IconMarginRight = 0
+        Me.BunifuFlatButton12.IconRightVisible = False
+        Me.BunifuFlatButton12.IconRightZoom = 0R
+        Me.BunifuFlatButton12.IconVisible = False
+        Me.BunifuFlatButton12.IconZoom = 0R
+        Me.BunifuFlatButton12.IsTab = False
+        Me.BunifuFlatButton12.Location = New System.Drawing.Point(-4, 89)
+        Me.BunifuFlatButton12.Name = "BunifuFlatButton12"
+        Me.BunifuFlatButton12.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton12.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton12.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton12.selected = False
+        Me.BunifuFlatButton12.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton12.TabIndex = 24
+        Me.BunifuFlatButton12.Text = "Inne"
+        Me.BunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton12.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton12.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton11
+        '
+        Me.BunifuFlatButton11.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton11.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton11.BorderRadius = 0
+        Me.BunifuFlatButton11.ButtonText = "Tapeta"
+        Me.BunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton11, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton11, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton11.Iconimage = Nothing
+        Me.BunifuFlatButton11.Iconimage_right = Nothing
+        Me.BunifuFlatButton11.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton11.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton11.IconMarginLeft = 0
+        Me.BunifuFlatButton11.IconMarginRight = 0
+        Me.BunifuFlatButton11.IconRightVisible = False
+        Me.BunifuFlatButton11.IconRightZoom = 0R
+        Me.BunifuFlatButton11.IconVisible = False
+        Me.BunifuFlatButton11.IconZoom = 0R
+        Me.BunifuFlatButton11.IsTab = False
+        Me.BunifuFlatButton11.Location = New System.Drawing.Point(-4, 54)
+        Me.BunifuFlatButton11.Name = "BunifuFlatButton11"
+        Me.BunifuFlatButton11.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton11.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton11.selected = False
+        Me.BunifuFlatButton11.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton11.TabIndex = 23
+        Me.BunifuFlatButton11.Text = "Tapeta"
+        Me.BunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton11.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton11.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton10
+        '
+        Me.BunifuFlatButton10.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton10.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton10.BorderRadius = 0
+        Me.BunifuFlatButton10.ButtonText = "Ogólne"
+        Me.BunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton10, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton10, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton10.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton10.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton10.Iconimage = Nothing
+        Me.BunifuFlatButton10.Iconimage_right = Nothing
+        Me.BunifuFlatButton10.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton10.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton10.IconMarginLeft = 0
+        Me.BunifuFlatButton10.IconMarginRight = 0
+        Me.BunifuFlatButton10.IconRightVisible = False
+        Me.BunifuFlatButton10.IconRightZoom = 0R
+        Me.BunifuFlatButton10.IconVisible = False
+        Me.BunifuFlatButton10.IconZoom = 0R
+        Me.BunifuFlatButton10.IsTab = False
+        Me.BunifuFlatButton10.Location = New System.Drawing.Point(-4, 19)
+        Me.BunifuFlatButton10.Name = "BunifuFlatButton10"
+        Me.BunifuFlatButton10.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton10.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton10.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton10.selected = False
+        Me.BunifuFlatButton10.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton10.TabIndex = 22
+        Me.BunifuFlatButton10.Text = "Ogólne"
+        Me.BunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton10.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton10.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
         'TabControl6
         '
+        Me.TabControl6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TabControl6.Controls.Add(Me.TabPage17)
         Me.TabControl6.Controls.Add(Me.TabPage18)
         Me.BunifuTransition2.SetDecoration(Me.TabControl6, BunifuAnimatorNS.DecorationType.None)
@@ -480,6 +1100,7 @@ Partial Class settings
         'TabPage17
         '
         Me.TabPage17.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage17.Controls.Add(Me.PictureBox8)
         Me.BunifuTransition2.SetDecoration(Me.TabPage17, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.TabPage17, BunifuAnimatorNS.DecorationType.None)
         Me.TabPage17.Location = New System.Drawing.Point(4, 22)
@@ -488,6 +1109,16 @@ Partial Class settings
         Me.TabPage17.Size = New System.Drawing.Size(476, 414)
         Me.TabPage17.TabIndex = 0
         Me.TabPage17.Text = "TabPage17"
+        '
+        'PictureBox8
+        '
+        Me.BunifuTransition1.SetDecoration(Me.PictureBox8, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.PictureBox8, BunifuAnimatorNS.DecorationType.None)
+        Me.PictureBox8.Location = New System.Drawing.Point(96, 57)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(300, 159)
+        Me.PictureBox8.TabIndex = 0
+        Me.PictureBox8.TabStop = False
         '
         'TabPage18
         '
@@ -503,6 +1134,9 @@ Partial Class settings
         '
         'tab_accounts
         '
+        Me.tab_accounts.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.tab_accounts.Controls.Add(Me.Panel4)
+        Me.tab_accounts.Controls.Add(Me.TabControl4)
         Me.BunifuTransition2.SetDecoration(Me.tab_accounts, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.tab_accounts, BunifuAnimatorNS.DecorationType.None)
         Me.tab_accounts.Location = New System.Drawing.Point(4, 22)
@@ -511,7 +1145,130 @@ Partial Class settings
         Me.tab_accounts.Size = New System.Drawing.Size(639, 414)
         Me.tab_accounts.TabIndex = 4
         Me.tab_accounts.Text = "Konta"
-        Me.tab_accounts.UseVisualStyleBackColor = True
+        '
+        'Panel4
+        '
+        Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.BunifuTransition2.SetDecoration(Me.Panel4, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.Panel4, BunifuAnimatorNS.DecorationType.None)
+        Me.Panel4.Location = New System.Drawing.Point(-8, -22)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(175, 445)
+        Me.Panel4.TabIndex = 7
+        '
+        'TabControl4
+        '
+        Me.TabControl4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl4.Controls.Add(Me.TabPage2)
+        Me.TabControl4.Controls.Add(Me.TabPage5)
+        Me.BunifuTransition2.SetDecoration(Me.TabControl4, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabControl4, BunifuAnimatorNS.DecorationType.None)
+        Me.TabControl4.Location = New System.Drawing.Point(162, -11)
+        Me.TabControl4.Name = "TabControl4"
+        Me.TabControl4.SelectedIndex = 0
+        Me.TabControl4.Size = New System.Drawing.Size(481, 431)
+        Me.TabControl4.TabIndex = 8
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage2.Controls.Add(Me.BunifuFlatButton6)
+        Me.TabPage2.Controls.Add(Me.BunifuFlatButton7)
+        Me.BunifuTransition2.SetDecoration(Me.TabPage2, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage2, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(473, 405)
+        Me.TabPage2.TabIndex = 0
+        Me.TabPage2.Text = "TabPage2"
+        '
+        'BunifuFlatButton6
+        '
+        Me.BunifuFlatButton6.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton6.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton6.BorderRadius = 0
+        Me.BunifuFlatButton6.ButtonText = "Usuń konto"
+        Me.BunifuFlatButton6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton6, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton6, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton6.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton6.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton6.Iconimage = CType(resources.GetObject("BunifuFlatButton6.Iconimage"), System.Drawing.Image)
+        Me.BunifuFlatButton6.Iconimage_right = Nothing
+        Me.BunifuFlatButton6.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton6.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton6.IconMarginLeft = 0
+        Me.BunifuFlatButton6.IconMarginRight = 0
+        Me.BunifuFlatButton6.IconRightVisible = False
+        Me.BunifuFlatButton6.IconRightZoom = 0R
+        Me.BunifuFlatButton6.IconVisible = False
+        Me.BunifuFlatButton6.IconZoom = 36.0R
+        Me.BunifuFlatButton6.IsTab = False
+        Me.BunifuFlatButton6.Location = New System.Drawing.Point(157, 369)
+        Me.BunifuFlatButton6.Name = "BunifuFlatButton6"
+        Me.BunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton6.selected = False
+        Me.BunifuFlatButton6.Size = New System.Drawing.Size(144, 29)
+        Me.BunifuFlatButton6.TabIndex = 18
+        Me.BunifuFlatButton6.Text = "Usuń konto"
+        Me.BunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton6.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton6.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton7
+        '
+        Me.BunifuFlatButton7.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton7.BorderRadius = 0
+        Me.BunifuFlatButton7.ButtonText = "Dodaj nowe konto"
+        Me.BunifuFlatButton7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton7.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton7.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton7.Iconimage = CType(resources.GetObject("BunifuFlatButton7.Iconimage"), System.Drawing.Image)
+        Me.BunifuFlatButton7.Iconimage_right = Nothing
+        Me.BunifuFlatButton7.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton7.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton7.IconMarginLeft = 0
+        Me.BunifuFlatButton7.IconMarginRight = 0
+        Me.BunifuFlatButton7.IconRightVisible = False
+        Me.BunifuFlatButton7.IconRightZoom = 0R
+        Me.BunifuFlatButton7.IconVisible = False
+        Me.BunifuFlatButton7.IconZoom = 36.0R
+        Me.BunifuFlatButton7.IsTab = False
+        Me.BunifuFlatButton7.Location = New System.Drawing.Point(7, 369)
+        Me.BunifuFlatButton7.Name = "BunifuFlatButton7"
+        Me.BunifuFlatButton7.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton7.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton7.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton7.selected = False
+        Me.BunifuFlatButton7.Size = New System.Drawing.Size(144, 29)
+        Me.BunifuFlatButton7.TabIndex = 17
+        Me.BunifuFlatButton7.Text = "Dodaj nowe konto"
+        Me.BunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton7.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton7.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'TabPage5
+        '
+        Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.BunifuTransition2.SetDecoration(Me.TabPage5, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.TabPage5, BunifuAnimatorNS.DecorationType.None)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(473, 405)
+        Me.TabPage5.TabIndex = 1
+        Me.TabPage5.Text = "TabPage5"
         '
         'tab_updates
         '
@@ -535,7 +1292,7 @@ Partial Class settings
         Me.BunifuTransition1.SetDecoration(Me.Panel3, BunifuAnimatorNS.DecorationType.None)
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(167, 414)
+        Me.Panel3.Size = New System.Drawing.Size(167, 418)
         Me.Panel3.TabIndex = 2
         '
         'TabControl3
@@ -579,11 +1336,11 @@ Partial Class settings
         Me.BunifuTransition2.SetDecoration(Me.Label10, BunifuAnimatorNS.DecorationType.None)
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(255, 299)
+        Me.Label10.Location = New System.Drawing.Point(35, 328)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(210, 38)
+        Me.Label10.Size = New System.Drawing.Size(303, 19)
         Me.Label10.TabIndex = 9
-        Me.Label10.Text = "Powiadom mnie, gdy aktualizacja" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "będzie gotowa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label10.Text = "Powiadom mnie, gdy aktualizacja będzie gotowa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'BunifuCheckbox6
         '
@@ -594,7 +1351,7 @@ Partial Class settings
         Me.BunifuTransition1.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition2.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuCheckbox6.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox6.Location = New System.Drawing.Point(229, 300)
+        Me.BunifuCheckbox6.Location = New System.Drawing.Point(10, 328)
         Me.BunifuCheckbox6.Name = "BunifuCheckbox6"
         Me.BunifuCheckbox6.Size = New System.Drawing.Size(20, 20)
         Me.BunifuCheckbox6.TabIndex = 8
@@ -606,7 +1363,7 @@ Partial Class settings
         Me.BunifuTransition2.SetDecoration(Me.Label8, BunifuAnimatorNS.DecorationType.None)
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Label8.ForeColor = System.Drawing.Color.Gray
-        Me.Label8.Location = New System.Drawing.Point(361, 352)
+        Me.Label8.Location = New System.Drawing.Point(361, 356)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(104, 19)
         Me.Label8.TabIndex = 7
@@ -620,7 +1377,7 @@ Partial Class settings
         Me.BunifuTransition2.SetDecoration(Me.Label7, BunifuAnimatorNS.DecorationType.None)
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Label7.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label7.Location = New System.Drawing.Point(35, 352)
+        Me.Label7.Location = New System.Drawing.Point(35, 356)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(82, 19)
         Me.Label7.TabIndex = 6
@@ -633,7 +1390,7 @@ Partial Class settings
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuTransition1.SetDecoration(Me.PictureBox5, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition2.SetDecoration(Me.PictureBox5, BunifuAnimatorNS.DecorationType.None)
-        Me.PictureBox5.Location = New System.Drawing.Point(10, 350)
+        Me.PictureBox5.Location = New System.Drawing.Point(10, 354)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(25, 25)
         Me.PictureBox5.TabIndex = 5
@@ -709,12 +1466,86 @@ Partial Class settings
         Me.Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.Panel5.Controls.Add(Me.BunifuFlatButton4)
+        Me.Panel5.Controls.Add(Me.BunifuFlatButton5)
         Me.BunifuTransition2.SetDecoration(Me.Panel5, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.Panel5, BunifuAnimatorNS.DecorationType.None)
         Me.Panel5.Location = New System.Drawing.Point(0, 0)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(167, 414)
+        Me.Panel5.Size = New System.Drawing.Size(167, 418)
         Me.Panel5.TabIndex = 3
+        '
+        'BunifuFlatButton4
+        '
+        Me.BunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton4.BorderRadius = 0
+        Me.BunifuFlatButton4.ButtonText = "Błąd systemu"
+        Me.BunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton4.Iconimage = Nothing
+        Me.BunifuFlatButton4.Iconimage_right = Nothing
+        Me.BunifuFlatButton4.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton4.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton4.IconMarginLeft = 0
+        Me.BunifuFlatButton4.IconMarginRight = 0
+        Me.BunifuFlatButton4.IconRightVisible = False
+        Me.BunifuFlatButton4.IconRightZoom = 0R
+        Me.BunifuFlatButton4.IconVisible = False
+        Me.BunifuFlatButton4.IconZoom = 0R
+        Me.BunifuFlatButton4.IsTab = False
+        Me.BunifuFlatButton4.Location = New System.Drawing.Point(-4, 54)
+        Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
+        Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton4.selected = False
+        Me.BunifuFlatButton4.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton4.TabIndex = 21
+        Me.BunifuFlatButton4.Text = "Błąd systemu"
+        Me.BunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton4.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton4.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
+        '
+        'BunifuFlatButton5
+        '
+        Me.BunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton5.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton5.BorderRadius = 0
+        Me.BunifuFlatButton5.ButtonText = "Ogólne"
+        Me.BunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton5, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton5, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton5.Iconimage = Nothing
+        Me.BunifuFlatButton5.Iconimage_right = Nothing
+        Me.BunifuFlatButton5.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton5.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton5.IconMarginLeft = 0
+        Me.BunifuFlatButton5.IconMarginRight = 0
+        Me.BunifuFlatButton5.IconRightVisible = False
+        Me.BunifuFlatButton5.IconRightZoom = 0R
+        Me.BunifuFlatButton5.IconVisible = False
+        Me.BunifuFlatButton5.IconZoom = 0R
+        Me.BunifuFlatButton5.IsTab = False
+        Me.BunifuFlatButton5.Location = New System.Drawing.Point(-4, 19)
+        Me.BunifuFlatButton5.Name = "BunifuFlatButton5"
+        Me.BunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton5.selected = False
+        Me.BunifuFlatButton5.Size = New System.Drawing.Size(171, 29)
+        Me.BunifuFlatButton5.TabIndex = 20
+        Me.BunifuFlatButton5.Text = "Ogólne"
+        Me.BunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton5.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton5.TextFont = New System.Drawing.Font("Segoe UI", 9.0!)
         '
         'TabControl5
         '
@@ -830,7 +1661,7 @@ Partial Class settings
         Me.BunifuFlatButton2.IconVisible = False
         Me.BunifuFlatButton2.IconZoom = 0R
         Me.BunifuFlatButton2.IsTab = False
-        Me.BunifuFlatButton2.Location = New System.Drawing.Point(190, 363)
+        Me.BunifuFlatButton2.Location = New System.Drawing.Point(182, 398)
         Me.BunifuFlatButton2.Name = "BunifuFlatButton2"
         Me.BunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
         Me.BunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
@@ -956,7 +1787,7 @@ Partial Class settings
         Me.BunifuFlatButton1.IconVisible = False
         Me.BunifuFlatButton1.IconZoom = 0R
         Me.BunifuFlatButton1.IsTab = False
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(18, 363)
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(10, 398)
         Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
         Me.BunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
@@ -1119,6 +1950,9 @@ Partial Class settings
         'TabPage16
         '
         Me.TabPage16.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.TabPage16.Controls.Add(Me.BunifuDropdown3)
+        Me.TabPage16.Controls.Add(Me.Label13)
+        Me.TabPage16.Controls.Add(Me.BunifuCheckbox7)
         Me.BunifuTransition2.SetDecoration(Me.TabPage16, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuTransition1.SetDecoration(Me.TabPage16, BunifuAnimatorNS.DecorationType.None)
         Me.TabPage16.Location = New System.Drawing.Point(4, 22)
@@ -1128,81 +1962,50 @@ Partial Class settings
         Me.TabPage16.TabIndex = 1
         Me.TabPage16.Text = "TabPage16"
         '
-        'tab_cloud
+        'BunifuDropdown3
         '
-        Me.tab_cloud.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.tab_cloud.Controls.Add(Me.Panel4)
-        Me.tab_cloud.Controls.Add(Me.TabControl4)
-        Me.BunifuTransition2.SetDecoration(Me.tab_cloud, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.tab_cloud, BunifuAnimatorNS.DecorationType.None)
-        Me.tab_cloud.Location = New System.Drawing.Point(4, 22)
-        Me.tab_cloud.Name = "tab_cloud"
-        Me.tab_cloud.Padding = New System.Windows.Forms.Padding(3)
-        Me.tab_cloud.Size = New System.Drawing.Size(639, 414)
-        Me.tab_cloud.TabIndex = 7
-        Me.tab_cloud.Text = "Kesa Cloud"
+        Me.BunifuDropdown3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuDropdown3.BorderRadius = 2
+        Me.BunifuTransition1.SetDecoration(Me.BunifuDropdown3, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.BunifuDropdown3, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuDropdown3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuDropdown3.ForeColor = System.Drawing.Color.White
+        Me.BunifuDropdown3.Items = New String() {"Pokaż na ekranie bootowania", "Uruchom tryb Recovery", "Zatrzymaj uruchamianie systemu"}
+        Me.BunifuDropdown3.Location = New System.Drawing.Point(48, 47)
+        Me.BunifuDropdown3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BunifuDropdown3.Name = "BunifuDropdown3"
+        Me.BunifuDropdown3.NomalColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.BunifuDropdown3.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.BunifuDropdown3.selectedIndex = 0
+        Me.BunifuDropdown3.Size = New System.Drawing.Size(223, 42)
+        Me.BunifuDropdown3.TabIndex = 6
         '
-        'Panel4
+        'Label13
         '
-        Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.BunifuTransition2.SetDecoration(Me.Panel4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.Panel4, BunifuAnimatorNS.DecorationType.None)
-        Me.Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(167, 414)
-        Me.Panel4.TabIndex = 4
+        Me.Label13.AutoSize = True
+        Me.BunifuTransition1.SetDecoration(Me.Label13, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.Label13, BunifuAnimatorNS.DecorationType.None)
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Label13.ForeColor = System.Drawing.Color.White
+        Me.Label13.Location = New System.Drawing.Point(44, 19)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(246, 19)
+        Me.Label13.TabIndex = 5
+        Me.Label13.Text = "Jeśli błąd wystąpi podczas bootowania:"
         '
-        'TabControl4
+        'BunifuCheckbox7
         '
-        Me.TabControl4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.TabControl4.Controls.Add(Me.TabPage13)
-        Me.TabControl4.Controls.Add(Me.TabPage14)
-        Me.BunifuTransition2.SetDecoration(Me.TabControl4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.TabControl4, BunifuAnimatorNS.DecorationType.None)
-        Me.TabControl4.Location = New System.Drawing.Point(159, -11)
-        Me.TabControl4.Name = "TabControl4"
-        Me.TabControl4.SelectedIndex = 0
-        Me.TabControl4.Size = New System.Drawing.Size(484, 429)
-        Me.TabControl4.TabIndex = 3
-        '
-        'TabPage13
-        '
-        Me.TabPage13.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.TabPage13.Controls.Add(Me.PictureBox4)
-        Me.BunifuTransition2.SetDecoration(Me.TabPage13, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.TabPage13, BunifuAnimatorNS.DecorationType.None)
-        Me.TabPage13.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage13.Name = "TabPage13"
-        Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage13.Size = New System.Drawing.Size(476, 403)
-        Me.TabPage13.TabIndex = 0
-        Me.TabPage13.Text = "TabPage13"
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuTransition1.SetDecoration(Me.PictureBox4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition2.SetDecoration(Me.PictureBox4, BunifuAnimatorNS.DecorationType.None)
-        Me.PictureBox4.Location = New System.Drawing.Point(20, 19)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
-        '
-        'TabPage14
-        '
-        Me.TabPage14.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.BunifuTransition2.SetDecoration(Me.TabPage14, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.TabPage14, BunifuAnimatorNS.DecorationType.None)
-        Me.TabPage14.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage14.Size = New System.Drawing.Size(476, 403)
-        Me.TabPage14.TabIndex = 1
-        Me.TabPage14.Text = "TabPage14"
+        Me.BunifuCheckbox7.BackColor = System.Drawing.Color.MediumSeaGreen
+        Me.BunifuCheckbox7.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.BunifuCheckbox7.Checked = True
+        Me.BunifuCheckbox7.CheckedOnColor = System.Drawing.Color.MediumSeaGreen
+        Me.BunifuTransition1.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuTransition2.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox7.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox7.Location = New System.Drawing.Point(18, 20)
+        Me.BunifuCheckbox7.Name = "BunifuCheckbox7"
+        Me.BunifuCheckbox7.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox7.TabIndex = 4
         '
         'Label1
         '
@@ -1272,6 +2075,7 @@ Partial Class settings
         Me.BunifuThinButton21.Size = New System.Drawing.Size(76, 33)
         Me.BunifuThinButton21.TabIndex = 0
         Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuThinButton21.Visible = False
         '
         'PictureBox1
         '
@@ -1310,41 +2114,13 @@ Partial Class settings
         Me.BunifuElipse2.ElipseRadius = 7
         Me.BunifuElipse2.TargetControl = Me
         '
-        'BunifuFlatButton4
+        'anim_fadein
         '
-        Me.BunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
-        Me.BunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
-        Me.BunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuFlatButton4.BorderRadius = 0
-        Me.BunifuFlatButton4.ButtonText = "BunifuFlatButton4"
-        Me.BunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuTransition2.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuTransition1.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray
-        Me.BunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton4.Iconimage = CType(resources.GetObject("BunifuFlatButton4.Iconimage"), System.Drawing.Image)
-        Me.BunifuFlatButton4.Iconimage_right = Nothing
-        Me.BunifuFlatButton4.Iconimage_right_Selected = Nothing
-        Me.BunifuFlatButton4.Iconimage_Selected = Nothing
-        Me.BunifuFlatButton4.IconMarginLeft = 0
-        Me.BunifuFlatButton4.IconMarginRight = 0
-        Me.BunifuFlatButton4.IconRightVisible = False
-        Me.BunifuFlatButton4.IconRightZoom = 0R
-        Me.BunifuFlatButton4.IconVisible = False
-        Me.BunifuFlatButton4.IconZoom = 90.0R
-        Me.BunifuFlatButton4.IsTab = False
-        Me.BunifuFlatButton4.Location = New System.Drawing.Point(0, 30)
-        Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
-        Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
-        Me.BunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
-        Me.BunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White
-        Me.BunifuFlatButton4.selected = False
-        Me.BunifuFlatButton4.Size = New System.Drawing.Size(167, 37)
-        Me.BunifuFlatButton4.TabIndex = 1
-        Me.BunifuFlatButton4.Text = "BunifuFlatButton4"
-        Me.BunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BunifuFlatButton4.Textcolor = System.Drawing.Color.White
-        Me.BunifuFlatButton4.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.anim_fadein.Interval = 10
+        '
+        'anim_fadeout
+        '
+        Me.anim_fadeout.Interval = 10
         '
         'settings
         '
@@ -1360,8 +2136,10 @@ Partial Class settings
         Me.BunifuTransition2.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "settings"
+        Me.Opacity = 0R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "settings"
+        Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
@@ -1370,8 +2148,28 @@ Partial Class settings
         Me.TabControl2.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tab_network.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.TabControl7.ResumeLayout(False)
+        Me.TabPage6.ResumeLayout(False)
+        Me.TabPage6.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabPage7.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage8.ResumeLayout(False)
+        Me.TabPage8.PerformLayout()
+        Me.TabPage9.ResumeLayout(False)
+        Me.TabPage9.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tab_personalization.ResumeLayout(False)
+        Me.Panel6.ResumeLayout(False)
         Me.TabControl6.ResumeLayout(False)
+        Me.TabPage17.ResumeLayout(False)
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tab_accounts.ResumeLayout(False)
+        Me.TabControl4.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         Me.tab_updates.ResumeLayout(False)
         Me.TabControl3.ResumeLayout(False)
         Me.TabPage11.ResumeLayout(False)
@@ -1379,13 +2177,12 @@ Partial Class settings
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tab_advanced.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
         Me.TabControl5.ResumeLayout(False)
         Me.TabPage15.ResumeLayout(False)
         Me.TabPage15.PerformLayout()
-        Me.tab_cloud.ResumeLayout(False)
-        Me.TabControl4.ResumeLayout(False)
-        Me.TabPage13.ResumeLayout(False)
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage16.ResumeLayout(False)
+        Me.TabPage16.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -1397,10 +2194,13 @@ Partial Class settings
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuDragControl1 As ns1.BunifuDragControl
     Friend WithEvents BunifuThinButton21 As ns1.BunifuThinButton2
+    Friend WithEvents BunifuTransition1 As BunifuAnimatorNS.BunifuTransition
+    Friend WithEvents BunifuTransition2 As BunifuAnimatorNS.BunifuTransition
+    Friend WithEvents BunifuElipse2 As ns1.BunifuElipse
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents BunifuTileButton8 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton7 As ns1.BunifuTileButton
+    Friend WithEvents BunifuTileButton8 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton6 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton5 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton4 As ns1.BunifuTileButton
@@ -1408,64 +2208,94 @@ Partial Class settings
     Friend WithEvents BunifuTileButton2 As ns1.BunifuTileButton
     Friend WithEvents BunifuTileButton1 As ns1.BunifuTileButton
     Friend WithEvents tab_system As TabPage
-    Friend WithEvents BunifuTransition1 As BunifuAnimatorNS.BunifuTransition
     Friend WithEvents Panel2 As Panel
     Friend WithEvents TabControl2 As TabControl
     Friend WithEvents TabPage3 As TabPage
-    Friend WithEvents TabPage4 As TabPage
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents TabPage4 As TabPage
     Friend WithEvents tab_network As TabPage
-    Friend WithEvents tab_accounts As TabPage
-    Friend WithEvents tab_updates As TabPage
-    Friend WithEvents TabControl3 As TabControl
-    Friend WithEvents TabPage11 As TabPage
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents TabPage12 As TabPage
-    Friend WithEvents tab_advanced As TabPage
-    Friend WithEvents tab_cloud As TabPage
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents TabControl4 As TabControl
-    Friend WithEvents TabPage13 As TabPage
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents TabPage14 As TabPage
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents TabControl5 As TabControl
-    Friend WithEvents TabPage15 As TabPage
-    Friend WithEvents TabPage16 As TabPage
-    Friend WithEvents BunifuTransition2 As BunifuAnimatorNS.BunifuTransition
-    Friend WithEvents BunifuCheckbox3 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuCheckbox2 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuCheckbox1 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuMetroTextbox1 As ns1.BunifuMetroTextbox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents BunifuDropdown1 As ns1.BunifuDropdown
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents BunifuCheckbox4 As ns1.BunifuCheckbox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents BunifuFlatButton1 As ns1.BunifuFlatButton
-    Friend WithEvents BunifuProgressBar1 As ns1.BunifuProgressBar
     Friend WithEvents tab_personalization As TabPage
     Friend WithEvents Panel6 As Panel
     Friend WithEvents TabControl6 As TabControl
-    Friend WithEvents TabPage17 As TabPage
-    Friend WithEvents TabPage18 As TabPage
+    Friend WithEvents tab_accounts As TabPage
+    Friend WithEvents tab_updates As TabPage
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents TabControl3 As TabControl
+    Friend WithEvents TabPage11 As TabPage
+    Friend WithEvents Label10 As Label
+    Friend WithEvents BunifuCheckbox6 As ns1.BunifuCheckbox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents BunifuProgressBar1 As ns1.BunifuProgressBar
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents TabPage12 As TabPage
+    Friend WithEvents tab_advanced As TabPage
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents BunifuFlatButton4 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton5 As ns1.BunifuFlatButton
+    Friend WithEvents TabControl5 As TabControl
+    Friend WithEvents TabPage15 As TabPage
+    Friend WithEvents BunifuDropdown2 As ns1.BunifuDropdown
+    Friend WithEvents Label9 As Label
+    Friend WithEvents BunifuCheckbox5 As ns1.BunifuCheckbox
+    Friend WithEvents BunifuFlatButton2 As ns1.BunifuFlatButton
     Friend WithEvents BunifuFlatButton3 As ns1.BunifuFlatButton
     Friend WithEvents Label12 As Label
     Friend WithEvents BunifuCheckbox10 As ns1.BunifuCheckbox
     Friend WithEvents Label11 As Label
     Friend WithEvents BunifuCheckbox9 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuElipse2 As ns1.BunifuElipse
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents BunifuDropdown2 As ns1.BunifuDropdown
-    Friend WithEvents Label9 As Label
-    Friend WithEvents BunifuCheckbox5 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuFlatButton2 As ns1.BunifuFlatButton
-    Friend WithEvents Label10 As Label
-    Friend WithEvents BunifuCheckbox6 As ns1.BunifuCheckbox
-    Friend WithEvents BunifuFlatButton4 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton1 As ns1.BunifuFlatButton
+    Friend WithEvents Label6 As Label
+    Friend WithEvents BunifuCheckbox4 As ns1.BunifuCheckbox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents BunifuMetroTextbox1 As ns1.BunifuMetroTextbox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents BunifuDropdown1 As ns1.BunifuDropdown
+    Friend WithEvents Label3 As Label
+    Friend WithEvents BunifuCheckbox3 As ns1.BunifuCheckbox
+    Friend WithEvents BunifuCheckbox2 As ns1.BunifuCheckbox
+    Friend WithEvents BunifuCheckbox1 As ns1.BunifuCheckbox
+    Friend WithEvents TabPage16 As TabPage
+    Friend WithEvents BunifuDropdown3 As ns1.BunifuDropdown
+    Friend WithEvents Label13 As Label
+    Friend WithEvents BunifuCheckbox7 As ns1.BunifuCheckbox
+    Friend WithEvents TabPage17 As TabPage
+    Friend WithEvents TabPage18 As TabPage
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents TabControl4 As TabControl
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents BunifuFlatButton6 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton7 As ns1.BunifuFlatButton
+    Friend WithEvents anim_fadein As Timer
+    Friend WithEvents anim_fadeout As Timer
+    Friend WithEvents BunifuFlatButton9 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton8 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton12 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton11 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton10 As ns1.BunifuFlatButton
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents BunifuFlatButton13 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton14 As ns1.BunifuFlatButton
+    Friend WithEvents TabControl7 As TabControl
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents Label15 As Label
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents BunifuiOSSwitch1 As ns1.BunifuiOSSwitch
+    Friend WithEvents TabPage7 As TabPage
+    Friend WithEvents Label16 As Label
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Label17 As Label
+    Friend WithEvents BunifuiOSSwitch2 As ns1.BunifuiOSSwitch
+    Friend WithEvents BunifuFlatButton16 As ns1.BunifuFlatButton
+    Friend WithEvents BunifuFlatButton15 As ns1.BunifuFlatButton
+    Friend WithEvents TabPage8 As TabPage
+    Friend WithEvents Label18 As Label
+    Friend WithEvents TabPage9 As TabPage
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents PictureBox8 As PictureBox
 End Class

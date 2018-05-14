@@ -14,6 +14,13 @@
             Cursor.Hide()
             Timer1.Start()
         End Try
+        'Spójność plików
+        If My.Settings.adv_filesVerify = "True" Then
+            bg_black.Show()
+            integrityverifier.Show()
+        Else
+            loginscreen.Show()
+        End If
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
